@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Brief description of your website." />
+    <meta name="keywords" content="keywords, related, to, your, content" />
+    <meta name="author" content="Your Name" />
+
+    <!-- Open Graph Meta Tags for Social Sharing -->
+    <meta property="og:title" content="Your Website Title" />
+    <meta
+      property="og:description"
+      content="Brief description of your website for social media."
+    />
+    <meta
+      property="og:image"
+      content="https://www.yourwebsite.com/images/og-image.jpg"
+    />
+    <!-- Ensure URL to image is absolute -->
+    <meta property="og:url" content="https://www.yourwebsite.com" />
+    <meta property="og:type" content="website" />
+    <!-- Added type for better OG -->
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Your Website Title" />
+    <meta
+      name="twitter:description"
+      content="Brief description of your website for Twitter."
+    />
+    <meta
+      name="twitter:image"
+      content="https://www.yourwebsite.com/images/twitter-image.jpg"
+    />
+    <!-- Ensure URL to image is absolute -->
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+
+    <!-- Preload Important Resources (Performance Optimization) -->
+    <link rel="preload" href="css/styles.css" as="style" />
+    <link rel="preload" href="js/main.js" as="script" />
+
+    <!-- CSS Reset -->
+    <link rel="stylesheet" href="css/reset.css" />
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>Your Website Title</title>
+  </head>
+  <body>
+    <!-- Accessibility: Skip to Content Link -->
+    <!-- <a class="skip-link" href="#main-content">Skip to content</a> -->
+
+    <header>
+      <img src="./images/icons/logo.webp" alt="Triagro logo" id="logo-header" />
+      <!-- Top bar -->
+      <div class="header-top">
+        <div class="icons-container">
+          <a href="https://facebook.com/" target="_blank">
+            <img src="./images/icons/facebook.webp" alt="facebook" />
+          </a>
+          <a href="https://www.tiktok.com/" target="_blank">
+            <img src="./images/icons/tiktok.webp" alt="tik-tok" />
+          </a>
+          <a href="https://x.com/" target="_blank">
+            <img src="./images/icons/twitter.webp" alt="twitter" />
+          </a>
+          <a href="https://google.com/" target="_blank">
+            <img src="./images/icons/google.webp" alt="google" />
+          </a>
+        </div>
+
+        <div class="language-container">
+          <label for="language">Choose a language</label>
+          <select
+            name="language"
+            id="language"
+            aria-label="label for the select"
+          >
+            <option value="RO">🇷🇴</option>
+            <option value="DE">🇩🇪</option>
+            <option value="UK">🇬🇧</option>
+          </select>
+        </div>
+      </div>
+      <nav>
+        <!-- Accessible Navigation with aria-label -->
+        <ul aria-label="Meniul principal de navigare">
+          <li><a href="#acasa" aria-label="Sectiune acasa">Acasa</a></li>
+          <li><a href="#utilaje" aria-label="Sectiune utilaje">Utilaje</a></li>
+          <li>
+            <a href="#despre" aria-label="Sectiune despre noi">Despre noi</a>
+          </li>
+          <li>
+            <a href="#service" aria-label="Sectiune service">Service</a>
+          </li>
+          <li>
+            <a href="#finantare" aria-label="Sectiune finantare">Finantare</a>
+          </li>
+          <li>
+            <a href="#intrebari" aria-label="Sectiune intrebari frecvente"
+              >Intrebari frecvente</a
+            >
+          </li>
+          <li><a href="#contact" aria-label="Sectiune contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main content area with aria-labelledby for accessibility -->
+    <main id="main" aria-labelledby="main-title">
+      <section id="acasa" role="region" aria-labelledby="acasa-title">
+        <h1 id="main-title">Cea mai bună soluție pentru utilaje agricole!</h1>
+        <button>Vezi Produsele</button>
+      </section>
+
+      <!-- Utilajele noastre -->
+      <section id="utilaje" role="region" aria-labelledby="utilaje-title">
+        <h2 id="utilaje-title">Utilajele noastre</h2>
+        <div id="utilaje-p">
+          <p>
+            Descoperă selecția noastră diversificată de utilaje agricole
+            performante, disponibile atât noi, cât și second-hand.
+          </p>
+          <p>
+            Fie că ai nevoie de combine, tractoare sau alte echipamente, aici
+            găsești tot ce îți trebuie.
+          </p>
+        </div>
+
+        <div class="utilaje-toate">
+          <div class="utilaj">
+            <img src="/images/tractoare.png" alt="" />
+            <p>Tractoare</p>
+          </div>
+          <div class="utilaj">
+            <img src="/images/combine.png" alt="" />
+            <p>Combine</p>
+          </div>
+          <div class="utilaj">
+            <img src="/images/rec.png" alt="" />
+            <p>Tractoare</p>
+          </div>
+          <div class="utilaj">
+            <img src="/images/semanatori.png" alt="" />
+            <p>Tractoare</p>
+          </div>
+        </div>
+        <button>Vezi Toate Produsele</button>
+      </section>
+
+      <section id="despre" role="region" aria-labelledby="despre-title">
+        <div class="despre-top">
+          <div class="despre-left">
+            <h2 id="despre-title">Despre noi</h2>
+            <div class="despre-text">
+              <p>
+                Cu o experiență de peste X ani în domeniul vânzării de utilaje
+                agricole, suntem dedicați să oferim produse de calitate și
+                servicii excepționale.
+              </p>
+              <p>
+                Colaborăm cu cei mai mari producători și furnizăm utilaje care
+                să îți optimizeze productivitatea.
+              </p>
+            </div>
+
+            <div class="despre-stats">
+              <div class="despre-stat">
+                <p class="despre-nr">10+</p>
+                <p class="despre-stat-text">Ani de experienta</p>
+              </div>
+              <div class="despre-stats-line"></div>
+              <div class="despre-stat">
+                <p class="despre-nr">10+</p>
+                <p class="despre-stat-text">Ani de experienta</p>
+              </div>
+              <div class="despre-stats-line"></div>
+              <div class="despre-stat">
+                <p class="despre-nr">10+</p>
+                <p class="despre-stat-text">Ani de experienta</p>
+              </div>
+            </div>
+            <button>Vezi Toate Produsele</button>
+          </div>
+          <div class="despre-right">
+            <div class="despre-person">
+              <img src="/images/despre1.png" alt="" />
+              <div class="despre-person-all">
+                <p class="despre-nume">Sergiu CRISTEA</p>
+                <p class="despre-position">Director Comercial</p>
+              </div>
+            </div>
+            <div class="despre-person">
+              <img src="/images/despre2.png" alt="" />
+              <div class="despre-person-all">
+                <p class="despre-nume">Alexandru CRISTEA</p>
+                <p class="despre-position">Director Comercial</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section id="parteneri" role="region" aria-labelledby="parteneri-title">
+          <h2 id="parteneri-title">Partenerii nostri</h2>
+          <div class="scroller" data-speed="fast">
+            <ul class="tag-list scroller__inner">
+              <li><img src="/images/par1.png" alt="" /></li>
+              <li><img src="/images/par2.png" alt="" /></li>
+              <li><img src="/images/par3.png" alt="" /></li>
+              <li><img src="/images/par4.png" alt="" /></li>
+              <li><img src="/images/par5.png" alt="" /></li>
+            </ul>
+          </div>
+        </section>
+      </section>
+
+      <section id="service" role="region" aria-labelledby="service-title">
+        <div class="service-left">
+          <h2 id="contact-title">Service și Reparații</h2>
+          <p>
+            Îți asigurăm mentenanță și reparații rapide pentru toate tipurile de
+            utilaje agricole. Echipa noastră de specialiști este pregătită să
+            răspundă oricărei solicitări, folosind doar piese de schimb
+            originale și echipamente moderne.
+          </p>
+          <button>Contacteaza-ne!</button>
+        </div>
+        <img src="/images/serv.png" alt="" />
+      </section>
+
+      <section id="intrebari">
+        <h2>Întrebări frecvente</h2>
+        <div class="intrebari__cards">
+          <div class="intrebari__card">
+            <img
+              src="./images/arrow-right-q.png"
+              alt=""
+              class="arrow-right-q"
+            />
+            <img
+              src="./images/arrow-down-q.png"
+              alt=""
+              class="arrow-down-q invisible"
+            />
+
+            <h3>Ce tipuri de utilaje agricole comercializați?</h3>
+            <p class="invisible intrebari-answer">
+              Tarifele pentru diferitele servicii variază. Pentru a obține
+              informații exacte și actualizate despre tarifele fiecărui serviciu
+              în parte, vă recomandăm să contactați direct biroul nostru
+              telefonic sau să programați o consultație. Echipa noastră va fi
+              bucuroasă să vă ofere toate detaliile necesare.
+            </p>
+          </div>
+          <!-- <div class="intrebari__card">
+          <h3>Cât de devreme ar trebui să mă programez pentru o consultație?
+          </h3>
+          <p>Cât de devreme ar trebui să vă programați pentru o consultație depinde de disponibilitatea noastră și de
+            tipul
+            serviciului solicitat. În general, este recomandat să vă programați cât mai devreme posibil pentru a vă
+            asigura că
+            obțineți un interval convenabil.
+          </p>
+        </div> -->
+          <div class="intrebari__card">
+            <img
+              src="./images/arrow-right-q.png"
+              alt=""
+              class="arrow-right-q"
+            />
+            <img
+              src="./images/arrow-down-q.png"
+              alt=""
+              class="arrow-down-q invisible"
+            />
+
+            <h3>Cum pot programa o reparație pentru utilajul meu?</h3>
+            <p class="invisible intrebari-answer">
+              Tarifele pentru diferitele servicii variază. Pentru a obține
+              informații exacte și actualizate despre tarifele fiecărui serviciu
+              în parte, vă recomandăm să contactați direct biroul nostru
+              telefonic sau să programați o consultație. Echipa noastră va fi
+              bucuroasă să vă ofere toate detaliile necesare.
+            </p>
+          </div>
+          <div class="intrebari__card">
+            <img
+              src="./images/arrow-right-q.png"
+              alt=""
+              class="arrow-right-q"
+            />
+            <img
+              src="./images/arrow-down-q.png"
+              alt=""
+              class="arrow-down-q invisible"
+            />
+
+            <h3>Cum pot comanda piese de schimb?</h3>
+            <p class="invisible intrebari-answer">
+              Tarifele pentru diferitele servicii variază. Pentru a obține
+              informații exacte și actualizate despre tarifele fiecărui serviciu
+              în parte, vă recomandăm să contactați direct biroul nostru
+              telefonic sau să programați o consultație. Echipa noastră va fi
+              bucuroasă să vă ofere toate detaliile necesare.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <img src="/images/icons/logo.webp" alt="" />
+        <div class="footer-links">
+          <p>Link-uri</p>
+          <ul>
+            <li><a href="#acasa" aria-label="Sectiune acasa">Acasa</a></li>
+
+            <li>
+              <a href="#despre" aria-label="Sectiune despre noi">Despre noi</a>
+            </li>
+            <li>
+              <a href="#service" aria-label="Sectiune service">Service</a>
+            </li>
+            <li>
+              <a href="#finantare" aria-label="Sectiune finantare">Finantare</a>
+            </li>
+            <li>
+              <a href="#intrebari" aria-label="Sectiune intrebari frecvente"
+                >Intrebari frecvente</a
+              >
+            </li>
+            <li>
+              <a href="#contact" aria-label="Sectiune contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <p>Contact</p>
+          <p>123 456 789</p>
+          <p>Whatsapp</p>
+          <p>email@company.com</p>
+          <p>09:00 - 12:00</p>
+        </div>
+        <div class="footer-utilaje">
+          <p>Utilaje</p>
+          <ul>
+            <li>
+              <a href="#utilaje" aria-label="Sectiune utilaje">Utilaje noi</a>
+            </li>
+            <li>
+              <a href="#utilaje" aria-label="Sectiune utilaje"
+                >Utilaje second-hand</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-socials">
+          <div class="icons-container">
+            <a href="https://facebook.com/" target="_blank">
+              <img src="./images/icons/facebook.webp" alt="facebook" />
+            </a>
+            <a href="https://www.tiktok.com/" target="_blank">
+              <img src="./images/icons/tiktok.webp" alt="tik-tok" />
+            </a>
+            <a href="https://x.com/" target="_blank">
+              <img src="./images/icons/twitter.webp" alt="twitter" />
+            </a>
+            <a href="https://google.com/" target="_blank">
+              <img src="./images/icons/google.webp" alt="google" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <p id="footer-copyright">
+        &copy; 2024 Triagro | Toate drepturile rezervate
+      </p>
+    </footer>
+
+    <!-- Lazy Loading Scripts -->
+    <script defer src="js/main.js"></script>
+    <!-- Defer loading of JS to improve performance -->
+  </body>
+</html>
