@@ -72,39 +72,41 @@ document.addEventListener("DOMContentLoaded", function () {
 
     <table class="product-table">
         <tbody>
-            ${[
-              { label: "Motor", value: details.DETALII.MOTOR },
-              { label: "Transmisie", value: details.DETALII.TRANSMISIE },
-              { label: "Sistem Hidraulic", value: details.DETALII.SISTEM },
-              { label: "Priza de putere", value: details.DETALII.PUTERE },
-              { label: "Frâne", value: details.DETALII.FRANE },
-              {
-                label: "Ridicator Hidraulic si Cuple",
-                value: details.DETALII.RIDICATOR,
-              },
-              { label: "Punti", value: details.DETALII.PUNTI },
-              { label: "Lestare", value: details.DETALII.LESTARE },
-              { label: "Roti/Anvelope/Aparatori", value: details.DETALII.ROTI },
-              { label: "Mediu Operator", value: details.DETALII.MEDIU },
-              { label: "Tehnologia Fuse", value: details.DETALII.FUSE },
-              {
-                label: "Echipament Electric",
-                value: details.DETALII.ECHIPAMENT,
-              },
-              { label: "Diverse", value: details.DETALII.DIVERSE },
-              { label: "Masa (nelestat)", value: details.DETALII.MASA },
-            ]
-              .map(
-                (item, index) => `
-                <tr style="background-color: ${
-                  index % 2 === 0 ? "#F2F2F2" : "#FFFFFF"
-                };">
-                    <td><strong>${item.label}</strong></td>
-                    <td>${item.value}</td>
-                </tr>
-            `
-              )
-              .join("")}
+    ${[
+      { label: "Motor", value: details.DETALII.MOTOR },
+      { label: "Transmisie", value: details.DETALII.TRANSMISIE },
+      { label: "Sistem Hidraulic", value: details.DETALII.SISTEM },
+      { label: "Priza de putere", value: details.DETALII.PUTERE },
+      { label: "Frâne", value: details.DETALII.FRANE },
+      {
+        label: "Ridicator Hidraulic si Cuple",
+        value: details.DETALII.RIDICATOR,
+      },
+      { label: "Punti", value: details.DETALII.PUNTI },
+      { label: "Axe si Priza de Putere", value: details.DETALII.AXE },
+      { label: "Lestare", value: details.DETALII.LESTARE },
+      { label: "Roti/Anvelope/Aparatori", value: details.DETALII.ROTI },
+      { label: "Mediu Operator", value: details.DETALII.MEDIU },
+      { label: "Tehnologia Fuse", value: details.DETALII.FUSE },
+      {
+        label: "Echipament Electric",
+        value: details.DETALII.ECHIPAMENT,
+      },
+      { label: "Diverse", value: details.DETALII.DIVERSE },
+      { label: "Masa (nelestat)", value: details.DETALII.MASA },
+    ]
+      .filter((item) => item.value !== undefined) // Filter out items with undefined values
+      .map(
+        (item, index) => `
+        <tr style="background-color: ${
+          index % 2 === 0 ? "#F2F2F2" : "#FFFFFF"
+        };">
+            <td><strong>${item.label}</strong></td>
+            <td>${item.value}</td>
+        </tr>
+    `
+      )
+      .join("")}
         </tbody>
     </table>
 

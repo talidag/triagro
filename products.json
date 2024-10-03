@@ -8,6 +8,54 @@
         "NAME": "MF 8700S",
         "PRODUCTS": [
           {
+            "ID": "P00000",
+            "NAME": "MF 8727S",
+            "PRODUCT_DETAILS": {
+              "TITLE": "Tractor Agricol MASSEY FERGUSON",
+              "SUBTITLE": "MF 8727 S Dyna-VT EXclusive",
+              "BRAND": "./images/MF.png",
+              "DETALII": {
+                "MOTOR": "AGCO POWER; 6 cilindri; 8,4l; Putere nominala maxima 270 CP; Stage 5, Esapamaent lateral  cu Tehnologia SCR; Regulator Electronic Motor; Putere maxima cu EPM 300 CP; Separator apa combustibil; Antigel 50% cu apa; rezervor combustibil 600 l; Rezervor AdBlue 60l",
+                "TRANSMISIE": "DYNA VT, 50 km/h; Cutie de viteze tip CVT - viteza continuu variabila; Comanda PowerShuttle - MultiPad pe cotiera; Park Lock;",
+                "SISTEM": "205 l/min, cu centru inchis CCLS; Valvele 1 si  2 comandate cu joystick; 3 valve conform Dotari Suplimentare; Colector scurgeri de ulei; Iesiri suplimentare Power Beyond cu cuple P/T/LS;",
+                "PUTERE": "Blocare priza de putere + Activat / Dezactivat pe aparatoare spate; Priza cu flansa 540eco/1.000 rpm, C-da interna, arbori cu 6 & 20 & 21 caneluri; Actionare priza de putere standard – 2.000 rpm la motor;",
+                "FRANE": "Frane asistate hidraulic & Valva de inalta presiune; + Dotari Suplimentare",
+                "RIDICATOR": "Mecanism in 3 puncte conform Dotari Suplimentare, Ridicator hidraulic cu controlul electronic al tractiunii (ELC); Mare capacitate de ridicare (12 t); Comenzi externe ridicator pe aparatori spate & Comanda unei valve; Stabilizatori automati; Ridicator fata conform Dotari suplimentare; Cupla remorca manuala rapid reglabila, Bara de tractiune si Piton fix",
+                "PUNTI": "Puntea fata cu suspensie; Puntea spate tip bara scurta; Sina laterala suport accesorii; Etansare completa pentru camp inundat (orez)",
+                "LESTARE": "Conform Dotari Suplimentare",
+                "ROTI": "Dimensiuni si brand anvelope conform Dotari Suplimentare; Aparatori fata pivotante de latime standard; Aparatori spate  late 2,45 m +  extensii de 100 mm",
+                "MEDIU": "Aer conditionat automat; Radio - CD- MP3 - Egalizator, Bluetooth, USB - SD Card & Auxiliare pe fata; Scaun auxiliar cu centura; Cabina cu suspensie mecanica activa; Ceas; Oglinzi telescopice cu unghi dublu cu reglare si degivrare electrica; Oglinda interioara; Acoperis standard; Centura scaun operator; Scaun cu suspensie pneumatica Grammer super lux; Capota inclinabila din foaie de otel; Afisare viteze in km/h; Coloana volan reglabila si SpeedSter; Stergator Spalator luneta",
+                "FUSE": "Ecran tactil cu diagonala de 9” Datatronic 5 (managementul setarilor tractorului, ISOBUS, pregatire camera video) & MF vDisplay;  Modulul de conectivitate ( ACM) pentru transfer de date CAN, inclusiv abonament gratuit 5 ani; Task Doc  + Dotari Suplimentare",
+                "ECHIPAMENT": "Comutator de izolare electrica & Post pentru pornire cu baterie de ajutor; Doua girofaruri pe acoperis cabina; Doua prize de curent CEE; Alternatoare de inalta capacitate; Lumini de gabarit; Lumini de drum si de lucru conform Dotari Suplimentare; ",
+                "DIVERSE": "Culoare rosie MF; Cu etichete; Teste calitate + verificare scurgeri de ulei; Pachet de tara Romania; Cutie pentru scule",
+                "MASA": "Cca 11.170 kg",
+                "SUPLIMENTARE": [
+                  "Valve comandate cu butoane pentru CCLS: a 3-a, a 4-a si a 5-a (ZL+KO+FL)",
+                  "Frana pneumatica remorca cu priza ABS",
+                  "Ridicator frontal 5 t & 2 seturi de cuple fata + Retur liber",
+                  "Tiranti cu capete carlig Cat.4",
+                  "Tirant superior hidraulic Cat 3",
+                  "Bile Cat 4/4 & 4/3",
+                  "Oglinda vizualizare ridicator spate",
+                  "Lest fata - monobloc de 2.300 kg",
+                  "Lest spate - 2 x 250 kg pe fiecare roata spate (montate la exterior)",
+                  "Brand anvelope Michelin",
+                  "Anvelope fata IF 600/70 R30 W20 W & spate IF 710/70 R42 W25 W",
+                  "Pregatire Autoghidare & SpeedSteer",
+                  "Lumini de lucru cu LED pe acoperis cabina, 4 pe fata si 4 pe spate",
+                  "Lumini de lucru cu LED suplimentare, 2 in fata si 2 in spate si 2 lumini de drum pe fata",
+                  "16 lumini de lucru cu LED + Lumini de drum pe barele de mana"
+                ],
+                "IMAGES": [
+                  "./images/products/MF 8700S/MF 8700S 1.jpg",
+                  "./images/products/MF 8700S/MF 8700S 2.jpg",
+                  "./images/products/MF 8700S/MF 8700S 3.jpg",
+                  "./images/products/MF 8700S/MF 8700S 4.jpg"
+                ]
+              }
+            }
+          },
+          {
             "ID": "P00001",
             "NAME": "MF 8730S",
             "PRODUCT_DETAILS": {
@@ -147,7 +195,11 @@
                   "Lumini de lucru cu LED suplimentare, 2 in fata si 2 in spate si 2 lumini de drum pe fata",
                   "16 lumini de lucru cu LED + Lumini de drum pe barele de mana"
                 ],
-                "IMAGES": ["./images/products/MF 8700S/MF 8740S.png"]
+                "IMAGES": [
+                  "./images/products/MF 8700S/MF 8740S.png",
+                  "./images/products/MF 8700S/MF 8740 1.png",
+                  "./images/products/MF 8700S/MF 8740 2.png"
+                ]
               }
             }
           }
@@ -159,145 +211,613 @@
         "PRODUCTS": [
           {
             "ID": "P00004",
-            "NAME": "MF 8S",
+            "NAME": "MF 8S.205 DYNA-7",
             "PRODUCT_DETAILS": {
               "TITLE": "Tractor Agricol MASSEY FERGUSON",
-              "SUBTITLE": "MF 8730 S Dyna-VT EXclusive",
+              "SUBTITLE": "MF 8 S.205 DYNA-7 EFFICIENT",
               "BRAND": "./images/MF.png",
               "DETALII": {
-                "MOTOR": "AGCO POWER; 6 cilindri; 8,4l; Putere nominala maxima 295 CP; Stage 5, Esapamaent lateral  cu Tehnologia SCR; Regulator Electronic Motor; Putere maxima cu EPM 325 CP; Separator apa combustibil; Antigel 50% cu apa; ",
-                "TRANSMISIE": "DYNA VT, 4WD, 50 km/h; Cutie de viteze tip CVT - viteza continuu variabila; Comanda PowerShuttle - MultiPad pe cotiera; Park Lock;",
-                "SISTEM": "205 l/min, cu centru inchis CCLS; Valvele 1 si  2 comandate cu joystick; 3 valve conform Dotari Suplimentare; Colector scurgeri de ulei; Iesiri suplimentare cu Power beyond cu cuple P/T/LS;",
-                "PUTERE": "Blocare priza de putere + Activat / Dezactivat pe aparatoare spate; Priza cu flansa 540eco/1.000 rpm, C-da interna, arbori cu 6 & 20 & 21 caneluri; Actionare priza de putere standard – 2.000 rpm la motor;",
-                "FRANE": "Frane asistate hidraulic & Valva de inalta presiune; Sistem franare remorca conform Dotari Suplimentare",
-                "RIDICATOR": "Mecanism in 3 puncte conform Dotari Suplimentare, Ridicator hidraulic cu controlul electronic al tractiunii (ELC); Mare capacitate de ridicare (12 To); Comenzi externe ridicator pe aparatori spate & Comanda unei valve; Stabilizatori automati; Ridicator fata conform Dotari suplimentare; Cupla remorca manuala rapid reglabila, Bara de tractiune si Piton fix",
-                "PUNTI": "Puntea fata cu suspensie; Puntea spate tip bara scurta; Sina laterala suport accesorii; Etansare completa pentru camp inundat (orez)",
-                "LESTARE": "Conform Dotari Suplimentare",
-                "ROTI": "Dimensiuni si brand anvelope conform Dotari Suplimentare; Aparatori fata conform Dotari Suplimentare; Aparatori spate  late 2,45 m +  extensii spate de 100 mm",
-                "MEDIU": "Scaun auxiliar cu centura; Coloana volan reglabila si SpeedSter; Scaun Grammer Super Luxe; Radio - CD- MP3 - Egalizator, Bluetooth, USB - SD Card & Auxiliare pe fata; Acoperis standard; Centura scaun; Stergator Spalator luneta; Oglinzi telescopice cu unghi dublu cu reglare si degivrare electrica; Cabina cu suspensie mecanica activa; Oglinda interioara; Aer conditionat automat; Afisare viteze in km/h; Capota inclinabila din foaie de metal standard; Ceas",
-                "FUSE": "Ecran tactil cu diagonala de 9” Datatronic 5 (managementul setarilor tractorului, ISOBUS, pregatire camera video) & MF vDisplay;  Modulul de conectivitate ( ACM) pentru transfer de date CAN, inclusiv abonament gratuit 5 ani; Task Doc  + Dotari Suplimentare",
-                "ECHIPAMENT": "Alternatoare de inalta capacitate; Comutator de izolare electrica & Post pentru pornire cu baterie de ajutor; Doua girofaruri pe acoperis cabina; Doua prize de curent CEE; Lumini de drum si de lucru conform Dotari Suplimentare; Lumini de gabarit",
-                "DIVERSE": "Pachet de tara Romania; Cu etichete (fara etichete speciale); Cutie pentru scule; Teste calitate + verificare scurgeri de ulei; Culoare rosie MF;",
-                "MASA": "Cca 11.095 kg",
+                "MOTOR": "AGCO POWER; 6 cilindri; 7,4 l; Putere nominala maxima 205CP; Esapament lateral cu SCR- Stage 5 (DOC+SCR+SC); Amplificare putere la motor cu EPM (max 225CP); Separator apa combustibil; Ventilator standard; Tractor cu 50% antigel",
+                "TRANSMISIE": "Dyna-7; 40 km/h; Cutie de viteze cu 28 rapoarte; 7 viteze Powershift, 4 game robotizate; Cotiera multifunctionala cu MultiPad; Park lock;",
+                "SISTEM": "Cu centru inchis (CCLS); Debit ulei hidraulic, conform Dotari Suplimentare; Valve electrice CCLS a 1-a si a 2-a cu comanda pe MicroJoystick pe MultiPad, fara maneta de decompresie; Valvele a 3-a si a 4-a mecanice CCLS, fara maneta de decompresie; + Dotari Suplimentare",
+                "PUTERE": "Priza interschimbabila cu flansa 540/540Eco/1000/1000Eco rpm, Arbore cu 6 caneluri; Comenzi electronice din cabina pentru priza de putere; Comanda externa priza de putere",
+                "FRANE": "Frane asistate hidraulic & valva de inalta presiune; + Dotari Suplimentare",
+                "RIDICATOR": "Mecanism  in 3 puncte, Tiranti cu capete carlig Cat.3-a, Bile si Conuri Cat 3/3 & 3/2; ELC cu mare capacitate de ridicare (10 tone); Comenzi externe ridicator pe ambele parti si comanda unei valve hidraulice; Stabilizatoare telescopice flotante variabile HD; + Dotari Suplimentare",
+                "PUNTI": "Puntea fata cu suspensie; Puntea spate tip bara dreapta scurta HD (sarcini marite)",
+                "LESTARE": "Conform Dotari Suplimentare ",
+                "ROTI": "Anvelope fata  540/65R30  WA & spate 650/65 R42  W; aparatori fata conform Dotari Suplimentare; Aparatori spate late 2,35m ",
+                "MEDIU": "Scaun auxiliar cu centura; Radio/Auxiliare fata/ Bluetooth/ conector USB, cu microfon integrat, comenzi in cotiera; Acoperis standard cu trapa; Centura scaun; Oglinzi telescopice cu unghi mare; Cabina cu suspensie mecanica; Oglinda interioara; Aer conditionat; Afisare viteze in km/h; Stergator spalator luneta; + Dotari Suplimentare",
+                "FUSE": "Conform Dotari Suplimentare; Modulul de conectivitate (ACM) pentru transfer de date CAN, inclusiv abonament gratuit 5 ani;",
+                "ECHIPAMENT": "Comutator de izolare electrica si post pornire cu baterie de ajutor; 2 girofaruri pe acoperis cabina; Lumini de lucru  conform Dotari Suplimentare; O priza electrica CEE",
+                "DIVERSE": "Cu etichete; Cutie pentru scule; Culoare rosie MF; Pachet de tara Romania",
+                "MASA": "Cca 9.000 kg",
                 "SUPLIMENTARE": [
-                  "Valve comandate cu butoane pentru CCLS: a 3-a, a 4-a si a 5-a (ZL+KO+FL)",
-                  "Frana pneumatica remorca cu priza ABS",
-                  "Oglinda vizualizare ridicator spate",
-                  "Tiranti cu capete carlig Cat.4",
-                  "Tirant superior hidraulic Cat 3",
-                  "Bile Cat 4/4 & 4/3",
-                  "Ridicator frontal 5 t & 2 seturi de cuple fata + Retur liber & Greutate ventrala",
-                  "Lest fata - monobloc de 2.300 kg",
-                  "Lest spate - 2 x 250 kg pe fiecare roata spate (montate la exterior)",
-                  "Anvelope fata IF 600/70 R30 W20 W & spate IF 710/70 R42 W25 WS",
-                  "Brand anvelope Michelin",
-                  "Aparatori fata pivotante de latime mare",
-                  "Pregatire Autoghidare & SpeedSteer (terminal tactil obligatoriu)",
+                  "Sistem hidraulic cu debit 205 l/min CCLS",
+                  "Hidraulica cu Power Beyond si cuple P/T/LS/D",
+                  "Sistem franare pneumatic pentru remorca cu priza ABS",
+                  "Cupla automata pentru remorca rapid reglabila (Germania), Bara de tractiune Piton Fix",
+                  "Tirant superior hidraulic - cap carlig",
+                  "Ridicator frontal, cat 3, 4,8 t, valve electrice dedicate",
+                  "Un set de valve hidraulice frontale, comanda din joystick",
+                  "Un arbore suplimentar cu 21 caneluri la priza de putere",
+                  "Lest monobloc, 850 kg",
+                  "Cate o greutate de 250 Kg pe fiecare roata spate (montata la exterior)",
+                  "Brand anvelope fata si spate Michelin",
+                  "Aparatori fata pivotante de latime standard",
+                  "Scaun pivotant, cu suspensie pneumatica",
+                  "Coloana volan ajustabila si cu SpeedSteer",
+                  "Datatronic 5 terminal tactil cu ecran 9´´ (setari, tractor management, ISOBUS, pregatire camera) & MF vDisplay",
+                  "Autoghidare SM (sub metrica) Novatel",
+                  "Camera video integrata pe acoperis",
+                  "Task Doc",
+                  "Ghidare Advance Line",
+                  "Autoghidare SM & SpeedSteer Novatel (semnal fara taxe) (terminal Fieldstar 5)",
+                  "Lumini de gabarit pentru CEE",
                   "Lumini de lucru cu LED pe acoperis cabina, 4 pe fata si 4 pe spate",
-                  "Lumini de lucru cu LED suplimentare, 2 in fata si 2 in spate si 2 lumini de drum pe fata",
-                  "16 lumini de lucru cu LED + Lumini de drum pe barele de mana"
+                  "Lumini de lucru suplimentare 2 pe fata si 2 pe spate si 2 lumini de drum",
+                  "Lumini de lucru suplimentare cu LED, 2 pe fata si 2 pe spate + 2 lumini de drum pe fata",
+                  "Alternatoare de inalta capacitate",
+                  "Lumini de lucru LED, cu semnatura, 16 buc"
                 ],
                 "IMAGES": [
-                  "./images/products/MF 8700S/MF 8700S 1.jpg",
-                  "./images/products/MF 8700S/MF 8700S 2.jpg",
-                  "./images/products/MF 8700S/MF 8700S 3.jpg",
-                  "./images/products/MF 8700S/MF 8700S 4.jpg"
+                  "./images/products/MF 8S/MF 8S 1.jpg",
+                  "./images/products/MF 8S/MF 8S 2.jpg",
+                  "./images/products/MF 8S/MF 8S 3.jpg",
+                  "./images/products/MF 8S/MF 8S 4.jpg"
                 ]
               }
             }
           },
           {
-            "ID": "P00002",
-            "NAME": "MF 8735S",
+            "ID": "P00005",
+            "NAME": "MF 8S.205 DYNA-VT",
             "PRODUCT_DETAILS": {
               "TITLE": "Tractor Agricol MASSEY FERGUSON",
-              "SUBTITLE": "MF 8735 S Dyna-VT EXclusive",
+              "SUBTITLE": "MF 8S.205 DYNA-VT EXCLUSIVE",
               "BRAND": "./images/MF.png",
               "DETALII": {
-                "MOTOR": "AGCO POWER; 6 cilindri; 8,4l; Putere nominala maxima 350 CP; Stage 5, Esapamaent lateral  cu Tehnologia SCR; Regulator Electronic Motor; Putere maxima cu EPM 380 CP; Separator apa combustibil; Antigel 50% cu apa; ",
-                "TRANSMISIE": "DYNA VT, 4WD, 50 km/h; Cutie de viteze tip CVT - viteza continuu variabila; Comanda PowerShuttle - MultiPad pe cotiera; Park Lock;",
-                "SISTEM": "205 l/min, cu centru inchis CCLS; Valvele 1 si  2 comandate cu joystick; 3 valve conform Dotari Suplimentare; Colector scurgeri de ulei; Iesiri suplimentare cu Power beyond cu cuple P/T/LS;",
-                "PUTERE": "Blocare priza de putere + Activat / Dezactivat pe aparatoare spate; Priza cu flansa 540eco/1.000 rpm, C-da interna, arbori cu 6 & 20 & 21 caneluri; Actionare priza de putere standard – 2.000 rpm la motor;",
-                "FRANE": "Frane asistate hidraulic & Valva de inalta presiune; Sistem franare remorca conform Dotari Suplimentare",
-                "RIDICATOR": "Mecanism in 3 puncte conform Dotari Suplimentare, Ridicator hidraulic cu controlul electronic al tractiunii (ELC); Mare capacitate de ridicare (12 To); Comenzi externe ridicator pe aparatori spate & Comanda unei valve; Stabilizatori automati; Ridicator fata conform Dotari suplimentare; Cupla remorca manuala rapid reglabila, Bara de tractiune si Piton fix",
-                "PUNTI": "Puntea fata cu suspensie; Puntea spate tip bara scurta; Sina laterala suport accesorii; Etansare completa pentru camp inundat (orez)",
-                "LESTARE": "Conform Dotari Suplimentare",
-                "ROTI": "Dimensiuni si brand anvelope conform Dotari Suplimentare; Aparatori fata conform Dotari Suplimentare; Aparatori spate  late 2,45 m +  extensii spate de 100 mm",
-                "MEDIU": "Scaun auxiliar cu centura; Coloana volan reglabila si SpeedSter; Scaun Grammer Super Luxe; Radio - CD- MP3 - Egalizator, Bluetooth, USB - SD Card & Auxiliare pe fata; Acoperis standard; Centura scaun; Stergator Spalator luneta; Oglinzi telescopice cu unghi dublu cu reglare si degivrare electrica; Cabina cu suspensie mecanica activa; Oglinda interioara; Aer conditionat automat; Afisare viteze in km/h; Capota inclinabila din foaie de metal standard; Ceas",
-                "FUSE": "Ecran tactil cu diagonala de 9” Datatronic 5 (managementul setarilor tractorului, ISOBUS, pregatire camera video) & MF vDisplay;  Modulul de conectivitate ( ACM) pentru transfer de date CAN, inclusiv abonament gratuit 5 ani; Task Doc  + Dotari Suplimentare",
-                "ECHIPAMENT": "Alternatoare de inalta capacitate; Comutator de izolare electrica & Post pentru pornire cu baterie de ajutor; Doua girofaruri pe acoperis cabina; Doua prize de curent CEE; Lumini de drum si de lucru conform Dotari Suplimentare; Lumini de gabarit",
-                "DIVERSE": "Pachet de tara Romania; Cu etichete (fara etichete speciale); Cutie pentru scule; Teste calitate + verificare scurgeri de ulei; Culoare rosie MF;",
-                "MASA": "Cca 11.340 kg",
+                "MOTOR": "AGCO POWER; 6 cilindri; 7,4 l; Putere nominala maxima 205CP; Esapament lateral cu SCR- Stage 5; Regulator Electronic Motor; Amplificare putere la motor cu EPM (max 225CP); Separator apa combustibil; Ventilator standard; 50% antigel",
+                "TRANSMISIE": "CVT-Cutie de viteze cu transmisie variabilă continuă, conform Dotari Suplimentare; Cotiera multifunctionala cu MultiPad si Datatronic 5 integrat; Park lock;",
+                "SISTEM": "Conform Dotari Suplimentare; Debit ulei hidraulic, conform Dotari Suplimentare; Valve electrice CCLS a 1-a si a 2-a comandate cu MicroJoystick pe MultiPad, maneta de decompresie; Valvele electrice  suplimentare conform Dotari Suplimentare; Hidraulica cu Power beyond, cuple P/T/LS/D; ",
+                "PUTERE": "Priza interschimbabila cu flansa 540Eco/1000 rpm, Arbore cu 6 caneluri + conform Dotari Suplimentare; Comenzi electronice din cabina pentru priza de putere; Comanda externa priza de putere;",
+                "FRANE": "Frane asistate hidraulic & valva de inalta presiune + Dotari Suplimentare",
+                "RIDICATOR": "Mecanism  in 3 puncte, Tiranti cu capete carlig Cat.3-a si stabilizatori sarcini grele, telescopici, flotanti variabil; Bile si Conuri Cat 3/3 & 3/2; ELC cu mare capacitate de ridicare (10 tone); Comenzi externe ridicator pe ambele parti si comanda unei valve hidraulice; Dispozitive tractare si ridicator frontal  conform Dotari Suplimentare",
+                "PUNTI": "Puntea fata cu suspensie; Puntea spate tip bara dreapta scurta HD",
+                "LESTARE": "Conform Dotari Suplimentare ",
+                "ROTI": "Aparatori fata pivotante de latime standard; Anvelope si aparatori spate conform Dotari Suplimentare",
+                "MEDIU": "Scaun auxiliar cu centura; Coloana volan reglabila & SpeedSteer; Scaun automat pivotant, suspensie pneumatica & ventilat si incalzit, cu amortizare laterala, semi piele, spatar cu doua miscari; Radio conform Dotari Suplimentare; Acoperis standard cu trapa; Centura scaun operator; Oglinzi telescopice cu unghi mare cu reglaj si dezghetare electrica; Cabina cu suspensie mecanica activa; Filtrare aer Cat 2; Oglinda interioara; Aer conditionat automat cu management zonal flux aer; Afisare viteze in km/h;  + Dotari Suplimentare",
+                "FUSE": "Ecran tactil Datatronic 5 diagonala de 9”(management setari tractor, Isobus, pregatire camera) & MF vDisplay; Modulul de conectivitate (ACM) pentru transfer de date CAN, inclusiv abonament gratuit 5 ani; Task Doc, + Dotari Suplimentare",
+                "ECHIPAMENT": "Alternatoare de inalta capacitate; Comutator de izolare electrica si post pornire cu baterie de ajutor; 2 girofaruri pe acoperis cabina; Lumini de lucru cu LED pe acoperis cabina, 4 pe fata si 4 pe spate; Lumini  suplimentare de lucru cu LED 2 pe fata si 2 pe spate si 2 lumini de drum pe fata; O priza electrica CEE + Dotari Suplimentare",
+                "DIVERSE": "Cu etichete; Cutie pentru scule; Culoare rosie MF;",
+                "MASA": "Cca 9.000 kg",
                 "SUPLIMENTARE": [
-                  "Valve comandate cu butoane pentru CCLS: a 3-a, a 4-a si a 5-a (ZL+KO+FL)",
-                  "Frana pneumatica remorca cu priza ABS",
-                  "Oglinda vizualizare ridicator spate",
-                  "Tiranti cu capete carlig Cat.3",
-                  "Tirant superior hidraulic Cat 3",
-                  "Bile si conuri Cat 3/3 & 3/2",
-                  "Ridicator frontal 5 t & 2 seturi de cuple fata + Retur liber & Greutate ventrala",
-                  "Lest fata - monobloc de 2.300 kg",
-                  "Lest spate - 2 x 250 kg pe fiecare roata spate (montate la exterior)",
-                  "Anvelope fata IF 600/70 R30 W23 WA & spate IF 710/70 R42 W25 WS",
-                  "Brand anvelope Michelin",
-                  "Aparatori fata pivotante de latime mare",
-                  "Pregatire Autoghidare & SpeedSteer (terminal tactil obligatoriu)",
-                  "Lumini de lucru cu LED pe acoperis cabina, 4 pe fata si 4 pe spate",
-                  "Lumini de lucru cu LED suplimentare, 2 in fata si 2 in spate si 2 lumini de drum pe fata",
-                  "16 lumini de lucru cu LED + Lumini de drum pe barele de mana"
+                  "Transmisie Dyna-VT, 50 km/h",
+                  "Sistem hidraulic cu debit 205 l/min CCLS ECO",
+                  "Valvele electrice suplimentare a 3-a, a 4-a si a 5-a cu butoane pe cotiera, maneta de decompresie",
+                  "Sistem franare pneumatic pentru remorca cu priza ABS",
+                  "Ridicator frontal hidraulic de 4.800 kg Cat 3, cu valve electrice dedicate si joystick",
+                  "Un set de cuple hidraulice fata",
+                  "Cupla automata pentru remorca, rapid reglabila (Germania), Bara de tractiune cu bolt fix (pintle pin)",
+                  "Tirant superior hidraulic - capat carlig",
+                  "Un arbore suplimentar cu 21 caneluri pentru priza de putere spate",
+                  "Lest fata monobloc de 1.500 kg",
+                  "Lest spate 1 x 250 Kg pe fiecare roata spate (montate la exterior)",
+                  "Brand anvelope fata si spate Michelin",
+                  "Anvelope fata 600/65 R28 WA & spate 650/75 R38 W",
+                  "Radio/MP3/ Front Aux-in/Bluetooth/ conector USB, cu microfon integrat, comenzi in cotiera cu interfata avansata",
+                  "Stergatoare geam luneta",
+                  "Parasolare fata, spate si pe ambele parti",
+                  "Auto Ghidare Trimble Centimetre NTRIP (precizie centrimetrica) si SpeedSteer (RTK - semnal telefonie mobila)",
+                  "Ghidare Advanced Line",
+                  "Lumina de mers in marsarier",
+                  "Lumini de lucru, 16 LED, lumini cu semnatura"
                 ],
                 "IMAGES": [
-                  "./images/products/MF 8700S/MF 8700S 1.jpg",
-                  "./images/products/MF 8700S/MF 8700S 2.jpg",
-                  "./images/products/MF 8700S/MF 8700S 3.jpg",
-                  "./images/products/MF 8700S/MF 8700S 4.jpg"
+                  "./images/products/MF 8S/MF 8S 1.jpg",
+                  "./images/products/MF 8S/MF 8S 2.jpg",
+                  "./images/products/MF 8S/MF 8S 3.jpg"
                 ]
               }
             }
           },
           {
-            "ID": "P00003",
-            "NAME": "MF 8740S",
+            "ID": "P00006",
+            "NAME": "MF 8S.225",
             "PRODUCT_DETAILS": {
               "TITLE": "Tractor Agricol MASSEY FERGUSON",
-              "SUBTITLE": "MF 8740 S Dyna-VT EXclusive",
+              "SUBTITLE": "MF 8S.225 DYNA-7 EXCLUSIVE",
               "BRAND": "./images/MF.png",
               "DETALII": {
-                "MOTOR": "AGCO POWER; 6 cilindri; 8,4l; Putere nominala maxima 400 CP; Stage 5, Esapament lateral  cu Tehnologia SCR; Regulator Electronic Motor; Putere maxima cu EPM 405 CP; Separator apa combustibil; Antigel 50% cu apa; ",
-                "TRANSMISIE": "DYNA VT, 4WD, 50 km/h; Cutie de viteze tip CVT - viteza continuu variabila; Comanda PowerShuttle - MultiPad pe cotiera; Park Lock;",
-                "SISTEM": "Tip centru inchis CCLS, cu debit ulei de 205 l/min; Valvele 1 si  2 comandate cu joystick; 3 valve conform Dotari Suplimentare; Colector scurgeri de ulei; Hidraulica Power beyond cu cuple P/T/LS/D;",
-                "PUTERE": "Blocare priza de putere + Activat / Dezactivat pe aparatoare spate; Priza cu flansa 540eco/1.000 rpm, C-da interna, arbori cu 6 & 20 & 21 caneluri; Actionare priza de putere standard – 2.000 rpm la motor",
-                "FRANE": "Frane asistate hidraulic & Valva de inalta presiune; Frana remorca conform Dotari Suplimentare",
-                "RIDICATOR": "Mecanism in 3 puncte conform Dotari Suplimentare, Ridicator hidraulic cu controlul electronic al tractiunii (ELC); Mare capacitate de ridicare (12 To); Comenzi externe ridicator pe aparatori spate & Comanda unei valve; Stabilizatori automati; Ridicator fata conform Dotari Suplimentare; Cupla remorca conform Dotari Suplimentare",
-                "PUNTI": "Puntea fata HD cu suspensie compatibila cu roti duble; Puntea spate tip bara dreapta scurta ; Sina laterala suport accesorii; Etansare completa pentru camp inundat, (orez); ",
-                "LESTARE": "Conform Dotari Suplimentare",
-                "ROTI": "Dimensiuni si brand anvelope conform Dotari Suplimentare; Aparatori fata conform Dotari Suplimentare; Aparatori spate  late 2,45m +  extensii spate de 100mm;",
-                "MEDIU": "Scaun auxiliar cu centura; Coloana volan reglabila; Scaun operator conform Dotari Suplimentare ; Radio - CD- MP3 - Egalizator, Bluetooth, USB - SD Card & Auxiliare pe fata; Acoperis standard; Centura scaun operator; Stergator Spalator luneta; Oglinzi telescopice cu unghi mare cu reglare si degivrare electrica; Cabina cu suspensie mecanica activa; Oglinda interioara; Aer conditionat automat; Afisare viteze in km/h; Capota inclinabila din foaie de metal standard; Ceas; ",
-                "FUSE": "Modulul de conectivitate ( ACM) pentru transfer de date CAN, inclusiv abonament gratuit 5 ani; Task Doc; + Dotari Suplimentare  ",
-                "ECHIPAMENT": "Alternatoare de inalta capacitate; Comutator de izolare electrica & Post pentru pornire cu baterie de ajutor; 2 girofaruri pe acoperis cabina; 2 prize de curent CEE; Lumini de drum si de lucru conform Dotari Suplimentare; Lumini de gabarit",
-                "DIVERSE": "Cu etichete (fara etichete speciale); Cutie pentru scule; Teste calitate + verificare scurgeri de ulei; Culoare rosie MF; Pachet de tara Romania",
-                "MASA": "Cca 11.450 kg",
+                "MOTOR": "AGCO POWER; 6 cilindri; 7,4 l; Putere nominala maxima 225CP; Putere cu EPM max 245CP; Esapament lateral cu SCR- Stage 5;  Separator apa combustibil; Ventilator standard; Tractor cu 50% antigel; Rezervor combustibil 460 l; Rezervor AdBlue 43 l",
+                "TRANSMISIE": "Dyna-7; Viteza conform Dotari Suplimentare; Cutie de viteze cu 28/28 rapoarte; 7 viteze Powershift, 4 game robotizate; Cotiera multifunctionala cu MultiPad si Datatronic 5 integrat: Park lock;",
+                "SISTEM": "Cu centru inchis (CCLS); Sistem hidraulic conform Dotari Suplimentare; Valve electrice CCLS  1-a, a 2-a, , MicroJoystick pe MultiPad, cu maneta de decompresie;Valvele  a 3-a si a 4-a electrice cu butoane pe cotiera, maneta de decompresie Hidraulica cu Power beyond, cuple P/T/LS/D",
+                "PUTERE": "Priza interschimbabila cu flansa 540Eco/1000 rpm, Arbore cu 6 caneluri + conform Dotari Suplimentare; Comenzi electronice din cabina pentru priza de putere; Comanda externa priza de putere;",
+                "FRANE": "Frane asistate hidraulic & valva de inalta presiune; Frane remorca conform Dotari Suplimentare",
+                "RIDICATOR": "Mecanism  in 3 puncte, Tiranti cu capete carlig Cat.3-a, Bile si Conuri Cat 3/3 & 3/2; ELC cu mare capacitate de ridicare (10t); Comenzi externe ridicator pe ambele parti si comanda unei valve hidraulice; Cupla, conform Dotari Suplimentare",
+                "AXE": "Axa fata cu suspensie; Axa spate tip bara dreapta scurta HD; Priza interschimbabila cu flansa 540/540Eco/1000/1000Eco rpm, Arbore cu 6 caneluri; Comenzi electronice din cabina pentru priza de putere; Comanda externa priza pe aparatoare",
+                "LESTARE": "Conform Dotari Suplimentare ",
+                "ROTI": "Anvelope fata & spate si aparatori spate conform Dotari Suplimentare; Aparatori fata de latime standard, pivotante; ",
+                "MEDIU": "Scaun auxiliar cu centura; Coloana volan reglabila & SpeedSteer; Scaun automat pivotant suspendat pe aer &ventilat si incalzit, amortizare laterala, semi piele: Radio /Auxiliare fata/ Bluetooth/ conector USB, cu microfon integrat, comenzi in cotiera; Acoperis standard cu trapa; Centura scaun;  Oglinzi telescopice cu unghi mare cu reglaj si dezghetare electrica; Cabina cu suspensie mecanica activa; Filtrare aer Cat 2; Oglinda interioara; Aer conditionat automat cu management zonal flux aer; Afisare viteze in km/h; Camera integrata in acoperis; Parasolare, stergatoare conform Dotari Suplimentare",
+                "FUSE": "Ecran tactil Datatronic 5 de 9”(management setari tractor, Isobus, pregatire camera) & MF vDisplay; Pregatire AutoGuide Modulul de conectivitate (ACM) pentru transfer de date CAN, inclusiv abonament gratuit 3 ani; Task Doc",
+                "ECHIPAMENT": "Alternatoare de inalta capacitate; Comutator de izolare electrica si post pornire cu baterie de ajutor; 2 girofaruri pe acoperis; Lumini de lucru LED pe cabina 4 fata, 4 sapte, Lumini LED de lucru suplimentare 2 fata 2 spate + 2 lumini de drum; O priza electrica CEE; Alte lumini conform Dotari Suplimentare",
+                "DIVERSE": "Cu etichete; Cutie pentru scule; Culoare rosie MF;",
+                "MASA": "Cca 9.000 kg",
                 "SUPLIMENTARE": [
-                  "Valve comandate cu butoane pentru sistem hidraulic CCLS: a 3-a, a 4-a si a 5-a (ZL+KO+FL)",
-                  "Frana pneumatica remorca",
-                  "Cupla remorca automata, rapid reglabila, & bara de tractare",
-                  "Tiranti cu capete carlig Cat.3",
-                  "Tirant superior hidraulic Cat 3",
-                  "Bile si conuri Cat 3/3 & 3/2",
-                  "Ridicator frontal 5 t & 2 seturi de cuple fata + Retur liber & Greutate ventrala",
-                  "Lest fata - monobloc de 2.300 kg",
-                  "Lest spate – 3 x 250 kg pe fiecare roata spate (montate la exterior)",
-                  "Anvelope fata IF 650/60 R34 W23 W & spate IF 900/60 R42 W30 WS",
-                  "Brand anvelope Michelin",
-                  "Aparatori fata pivotante de latime mare",
-                  "Scaun operator, automat pivotant suspensie pneumatica & ventilat, cu 2 niveluri de incalzire, cu amortizare laterala, tapiterie textil-piele, spatar cu doua miscari, sistem de amortizare dinamică",
-                  "Ecran tactil Datatronic 5, diagonala 9”, (managementul functii tractor, ISOBUS, pregatire camera video) & Terminal tactil Fieldstar 5, diagonala 9” si MF vDisplay",
-                  "Autoghidare Trimble cu precizie centrimetrica NTRIP & SpeedSteer (cu semnal telefonie mobila RTK)",
-                  "Lumini de lucru cu LED pe acoperis cabina, 4 pe fata si 4 pe spate",
-                  "Lumini de lucru cu LED suplimentare, 2 in fata si 2 in spate si 2 lumini de drum pe fata",
-                  "16 lumini de lucru cu LED + Lumini de drum pe barele de mana"
+                  "Incalzitor bloc motor",
+                  "Viteza de transport 50 km/h",
+                  "Debit 205 l/min CCLS ECO",
+                  "Sistem franare pneumatic pentru remorca cu priza ABS",
+                  "Cupla Clevis automata (Germania), bara de tractiune si piton fix",
+                  "Stabilizatori automati",
+                  "Tirant superior reglabil hidraulic",
+                  "Oglida vizualizare cuple",
+                  "Ridicator frontal hidraulic de 4.800 kg Cat 3, un set de cuple hidraulice fata cu valve electrice dedicate & cu joystick",
+                  "Un ax suplimentar cu 21 caneluri la priza de putere",
+                  "Greutate monobloc de 1.500 kg",
+                  "Cate doua greutati de 250 Kg pe fiecare roata spate (montate la exterior)",
+                  "Brand anvelope fata si spate Michelin",
+                  "Roti fata VF600/70 R30 WA",
+                  "Roti spate VF 710/70 R42 W",
+                  "Aparatori roti spate late cu extensii 2,55m (2,35 m aparatoarea + 10 cm extensia)",
+                  "Stergator spalator luneta + geam lateral dreapta",
+                  "Luneta cu sistem de degivrare",
+                  "Parasolare fata, spate si geamuri laterale",
+                  "Lumini extremitati conform norme CEE",
+                  "Lumini pentru mers inapoi",
+                  "16 lumini LED cu semnatura"
                 ],
-                "IMAGES": ["./images/products/MF 8700S/MF 8740S.png"]
+                "IMAGES": [
+                  "./images/products/MF 8S/MF 8S 1.jpg",
+                  "./images/products/MF 8S/MF 8S 2.jpg",
+                  "./images/products/MF 8S/MF 8S 3.jpg",
+                  "./images/products/MF 8S/MF 8S 4.jpg"
+                ]
+              }
+            }
+          },
+          {
+            "ID": "P00007",
+            "NAME": "MF 8 S.265 DYNA-7",
+            "PRODUCT_DETAILS": {
+              "TITLE": "Tractor Agricol MASSEY FERGUSON",
+              "SUBTITLE": "MF 8 S.265 DYNA-7 EFFICIENT",
+              "BRAND": "./images/MF.png",
+              "DETALII": {
+                "MOTOR": "AGCO POWER; 6 cilindri; 7,4 l; Putere nominala maxima 265 CP; Esapament lateral cu SCR- Stage 5; Regulator Electronic Motor; Amplificare putere la motor cu EPM max 285 CP; Separator apa combustibil; Ventilator standard; Tractor cu 50% antigel; Rezervor combustibil 460 l; Rezervor AdBlue 43 l",
+                "TRANSMISIE": "Dyna-7; 40 km/h; Cutie de viteze cu 28 rapoarte; 7 viteze Powershift, 4 game robotizate; Cotiera multifunctionala cu maneta MultiPad; Park lock;",
+                "SISTEM": "Cu centru inchis (CCLS); Debit ulei hidraulic, conform Dotari Suplimentare; Valve electrice CCLS a 1-a si a 2-a comanda prin MicroJoystick pe MultiPad, fara maneta de decompresie; Valvele a 3-a si a 4-a mecanice CCLS fara maneta de decompresie; + Dotari Suplimentare",
+                "PUTERE": "Priza interschimbabila cu flansa 540/540Eco/1.000/1.000Eco rpm, Arbore cu 6 caneluri; Comenzi electronice din cabina pentru priza de putere; Comanda externa priza de putere + Dotori Suplimentare",
+                "FRANE": "Frane asistate hidraulic & valva de inalta presiune; + Dotari Suplimentare",
+                "RIDICATOR": "Mecanism in 3 puncte, Tiranti cu capete carlig Cat.3-a, Bile si Conuri Cat 3/3 & 3/2; ELC cu mare capacitate de ridicare (10 tone); Comenzi externe ridicator pe ambele parti si comanda unei valve hidraulice; Stabilizatoare telescopice flotante variabile HD; Ridicator fata si dispozitive de tractare conform Dotari Suplimentare",
+                "PUNTI": "Puntea fata cu suspensie; Puntea spate tip bara dreapta scurta HD",
+                "LESTARE": "Conform Dotari Suplimentare ",
+                "ROTI": "Anvelope si aparatori conform Dotari Suplimentare",
+                "MEDIU": "Aer conditionat; Radio/Auxiliare fata/ Bluetooth/ conector USB, cu microfon integrat, comenzi in cotiera; Scaun auxiliar cu centura; Cabina cu suspensie mecanica; Oglinzi telescopice cu unghi mare; Filtrare aer Cat 2; Oglinda interioara; Acoperis standard cu trapa; Centura scaun operator; Scaun operator, pivotant, incalzit, cu suspensie pneumatica si amortizare laterala; Afisare viteze in km/h;  Coloana volan conform Dotari Suplimentare; Parasolar frontal; Stergator spalator luneta; ",
+                "FUSE": "Modulul de conectivitate (ACM) pentru transfer de date CAN, inclusiv abonament gratuit 5 ani; + Dotari Suplimentare",
+                "ECHIPAMENT": "Comutator de izolare electrica si post pornire cu ajutor extern; 2 girofaruri pe acoperis cabina; O priza electrica CEE; Alternatoare de inalta capacitate; Lumini conform Dotari Suplimentare; ",
+                "DIVERSE": "Culoare rosie MF; Cu etichete; Pachet de tara Romania; Cutie pentru scule",
+                "MASA": "9.850 kg",
+                "SUPLIMENTARE": [
+                  "Sistem hidraulic cu debit 205 l/min CCLS",
+                  "Hidraulica cu Power Beyond si cuple P/T/LS/D",
+                  "Sistem franare pneumatic pentru remorca cu priza ABS",
+                  "Cupla automata pentru remorca rapid reglabila, bara de tractiune si bolt fix",
+                  "Ridicator fata 4.800 kg, Cat 3, un set de electrovalve hidraulice controlate prin joystick dedicat",
+                  "Tirant superior hidraulic- cap carlig",
+                  "Un arbore suplimentar cu 21 caneluri la priza de putere",
+                  "Lest fata monobloc 1.500 kg",
+                  "Lest spate 2 x 250 Kg pe fiecare roata spate (montata la exterior)",
+                  "Aparatori fata pivotante de latime standard",
+                  "Aparatori spate late 2,35m + extensii de 10 cm",
+                  "Brand anvelope fata si spate Michelin",
+                  "Anvelope fata VF 600/70R30 WA & spate VF 710/70 R42 W",
+                  "Coloana volan ajustabila si cu SpeedSteer",
+                  "Pregatire autoghidare",
+                  "Ecran tactil Datatronic 5, diagonala de 9”(setari functii tractor, ISOBUS, pregatire camera video) & MF vDisplay",
+                  "Task Doc",
+                  "Lumini de lucru LED pe acoperis cabina, 4 pe fata si 4 pe spate",
+                  "Lumini de lucru suplimentare LED, 2 pe fata si 2 pe spate + 2 lumini de drum",
+                  "16 lumini de lucru LED"
+                ],
+                "IMAGES": [
+                  "./images/products/MF 8S/MF 8S 1.jpg",
+                  "./images/products/MF 8S/MF 8S 2.jpg",
+                  "./images/products/MF 8S/MF 8S 3.jpg",
+                  "./images/products/MF 8S/MF 8S 4.jpg"
+                ]
+              }
+            }
+          },
+          {
+            "ID": "P00008",
+            "NAME": "MF 8S.265 DYNA-VT",
+            "PRODUCT_DETAILS": {
+              "TITLE": "Tractor Agricol MASSEY FERGUSON",
+              "SUBTITLE": "MF 8S.265 Dyna-VT Exclusive",
+              "BRAND": "./images/MF.png",
+              "DETALII": {
+                "MOTOR": "AGCO POWER; 6 cilindri; 7,4 l; Putere nominala maxima 265 CP; Esapament lateral cu SCR- Stage 5; Regulator Electronic Motor; Amplificare putere la motor cu EPM (max 285 CP); Separator apa combustibil; Ventilator standard; 50% antigel; Rezervor carburant 460l; Rezervor AdBlue 43l",
+                "TRANSMISIE": "Cutie de viteze tip CVT - viteza continuu variabila, conform Dotari Suplimentare; Cotiera multifunctionala cu MultiPad si monitor Datatronic 5 integrat; Park lock;",
+                "SISTEM": "Cu centru inchis (CCLS); Debit ulei hidraulic 205 l/min; Valve electrice CCLS a 1-a si a 2-a comandate cu MicroJoystick de pe MultiPad, cu manete de decompresie; Valve electrice CCLS a 3-a si a 4-a comandate cu butoane de pe cotiera, cu manete de decompresie; Hidraulica cu Power Beyond, cuple P/T/LS/D; ",
+                "PUTERE": "Priza interschimbabila cu flansa 540eco/1.000/rpm; Arbore cu 6 caneluri; Comenzi electronice din cabina pentru priza de putere; Comanda externa priza de putere; + Dotari Suplimentare",
+                "FRANE": "Frane asistate hidraulic & valva de inalta presiune + Dotari Suplimentare",
+                "RIDICATOR": "Mecanism  in 3 puncte, Tiranti cu capete carlig Cat.3-a, Bile si Conuri Cat 3/3 & 3/2; ELC cu mare capacitate de ridicare (10 tone); Comenzi externe ridicator pe ambele parti si comanda unei valve hidraulice; Stabilizatori sarcini grele (HD), telescopici, variabili; + Dotari Suplimentare",
+                "PUNTI": "Puntea fata cu suspensie; Puntea spate tip bara dreapta scurta HD",
+                "LESTARE": "Conform Dotari Suplimentare ",
+                "ROTI": "Anvelope, aparatori spate si brad anvelope conform Dotari Suplimentare; Aparatori fata, pivotante de latime standard; ",
+                "MEDIU": "Aer conditionat automat cu management zonal flux aer; Radio/Auxiliare fata/ Bluetooth/ conector USB, cu microfon integrat, comenzi in cotiera; Scaun auxiliar cu centura; Cabina cu suspensie mecanica activa; Oglinzi telescopice cu unghi mare cu reglaj si dezghetare electrica; Filtrare aer Cat 2; Geamuri standard; Oglinda interioara;  Acoperis standard cu trapa; Centura scaun operator;  Scaun operator, automat pivotant, suspensie pneumatica & ventilat si incalzit, cu amortizare laterala, sistem adaptativ  de sustinere a spatelui (doua sectiuni), piele + material textil, sistem dinamic de amortizare a socurilor; Afisare viteze in km/h; Coloana volan reglabila & SpeedSteer + Dotari Suplimentare",
+                "FUSE": "Ecran tactil Datatronic 5 cu diagonala de 9”(management setari tractor, Isobus, pregatire camera) & MF vDisplay; Modulul de conectivitate (ACM) pentru transfer de date CAN, inclusiv abonament gratuit 5 ani; Task Doc; Camera integrata in acoperis; + Dotari Suplimentare",
+                "ECHIPAMENT": "CComutator de izolare electrica si post pornire cu baterie de ajutor; Alternatoare de inalta capacitate;  Doua girofaruri pe acoperis cabina; O priza electrica CEE; Lumini de lucru cu LED pe acoperis cabina, 4 pe fata + 4 pe spate; Lumini suplimentare de lucru cu LED, 2 pe fata si 2 pe spate + 2 lumini de drum pe fata; + Dotari Suplimentare",
+                "DIVERSE": "Culoare rosie MF; Cu etichete; Pachet de tara Romania; Cutie pentru scule; ",
+                "MASA": "Cca. 10.200 kg",
+                "SUPLIMENTARE": [
+                  "Transmisie DYNA VT, 50 km/h",
+                  "Sistem franare pentru remorca, pneumatic cu priza ABS",
+                  "Cupla remorca automata, rapid reglabila, bara de tractare si bolt fix",
+                  "Ridicator frontal hidraulic de 4.800 kg, Cat 3, cu un set valve hidraulice controlate prin Joystick dedicat",
+                  "Tirant central hidraulic, cu cap carlig",
+                  "Un arbore suplimentar cu 21 caneluri la priza de putere",
+                  "Lest fata monobloc 1.500 kg",
+                  "Lest spate 2 x 250 kg pe fiecare roata (montate la exterior)",
+                  "Anvelope fata VF 600/70R30 WA & spate VF 710/70 R42 W",
+                  "Brand anvelope Michelin",
+                  "Aparatori spate late 2,55m (2,35m + extensii de 10 cm)",
+                  "Sistem desghetare luneta",
+                  "Alarma la mers cu spatele",
+                  "Parasolare fata, spate si la geamurile laterale",
+                  "Stergator spalator luneta si geam dreapta",
+                  "Auto Ghidare Trimble CM NTRIP (RTK- semnal telefonie mobila – precizie centrimetrica)",
+                  "Lumina la mers cu spatele",
+                  "Lumini de lucru, 16 LED, lumini cu semnatura"
+                ],
+                "IMAGES": [
+                  "./images/products/MF 8S/MF 8S 1.jpg",
+                  "./images/products/MF 8S/MF 8S 2.jpg",
+                  "./images/products/MF 8S/MF 8S 3.jpg",
+                  "./images/products/MF 8S/MF 8S 4.jpg"
+                ]
+              }
+            }
+          },
+          {
+            "ID": "P00009",
+            "NAME": "MF 8S.285",
+            "PRODUCT_DETAILS": {
+              "TITLE": "Tractor Agricol MASSEY FERGUSON",
+              "SUBTITLE": "MF 8S.285 Dyna-7 EXCLUSIVE",
+              "BRAND": "./images/MF.png",
+              "DETALII": {
+                "MOTOR": "AGCO POWER; 6 cilindri; 7,4 l; Putere nominala maxima 285 CP; Esapament lateral cu SCR- Stage 5; Regulator Electronic Motor; Amplificare putere la motor cu EPM (max 305 CP); Separator apa combustibil; Ventilator standard; 50% antigel",
+                "TRANSMISIE": "Conform Dotari Suplimentare; Cutie de viteze cu 28 rapoarte; 7 viteze Powershift, 4 game robotizate; Cotiera multifunctionala cu MultiPad si Datatronic 5 integrat; Park lock;",
+                "SISTEM": "Cu centru inchis (CCLS); Debit ulei hidraulic, conform Dotari Suplimentare; Valve electrice CCLS a 1-a si a 2-a cu MicroJoystick pe MultiPad, maneta de decompresie; Valve electrice CCLS a 3-a si a 4-a comanda butoane pe cotiera, maneta de decompresie; Hidraulica cu Power beyond, cuple P/T/LS/D; ",
+                "PUTERE": "Priza interschimbabila cu flansa 540/540Eco/1000/1000Eco rpm, Arbore cu 6 caneluri; Comenzi electronice din cabina pentru priza de putere; Comanda externa priza de putere; + Dotari Suplimentare",
+                "FRANE": "Frane asistate hidraulic & valva de inalta presiune; + Dotari Suplimentare",
+                "RIDICATOR": "Mecanism  in 3 puncte, Tiranti cu capete carlig Cat.3-a, Bile si Conuri Cat 3/3 & 3/2; Stabilizatori tiranti laterali tip HD (heavy-duty), flotanti variabil; ELC cu mare capacitate de ridicare (10 tone); Comenzi externe ridicator pe ambele parti si comanda unei valve hidraulice; + Dotari Suplimentare",
+                "PUNTI": "Puntea fata cu suspensie; Puntea spate tip bara dreapta scurta HD",
+                "LESTARE": "Conform Dotari Suplimentare ",
+                "ROTI": "Aparatori fata pivotante de latime standard; Aparatori spate late 2,35m ",
+                "MEDIU": "Scaun auxiliar cu centura; Coloana volan reglabila & SpeedSteer; Scaun operator automat pivotant, cu suspensie pneumatica & ventilat si incalzit, cu amortizare laterala, semi piele spatar cu dubla miscare; Radio conform Dotari Suplimentare; Acoperis standard cu trapa; Centura scaun operator; Oglinzi telescopice cu unghi mare cu reglaj si dezghetare electrica; Cabina cu suspensie mecanica activa; Filtrare aer Cat 2; Oglinda interioara; Aer conditionat automat cu management zonal flux aer; Afisare viteze in km/h; Camera integrata in acoperis; + Dotari Suplimentare",
+                "FUSE": "Ecran tactil Datatronic 5 de 9”(management functii tractor, Isobus, pregatire camera) & MF vDisplay; Modulul de conectivitate (ACM) pentru transfer de date CAN, inclusiv abonament gratuit 5 ani; Task Doc; + Dotari Suplimentare",
+                "ECHIPAMENT": "Alternatoare de inalta capacitate; Comutator de izolare electrica si post pornire cu baterie de ajutor; 2 girofaruri pe acoperis cabina; 4 lumini de lucru cu LED pe acoperis cabina, 2 pe fata si 2 pe spate; Lumini suplimentare de lucru cu LED, 2 pe fata si 2 pe spate + 2 lumini de drum pe fata; 1 priza electrica CEE; + Dotari Suplimentare",
+                "DIVERSE": "Cu etichete; Cutie pentru scule; Culoare rosie MF;",
+                "MASA": "Min 10.200 kg",
+                "SUPLIMENTARE": [
+                  "Transmisie Dyna 7, 40 km/h",
+                  "Sistem franare pneumatic pentru remorca cu priza ABS",
+                  "Ridicator frontal hidraulic de 4.800 kg Cat 3, cu valve electrice dedicate & joystick",
+                  "Un set de cuple hidraulice fata",
+                  "Cupla automata pentru remorca, rapid reglabila (Germania), bara de tractiune piton fix",
+                  "Tirant superior hidraulic- capat carlig",
+                  "Un arbore suplimentar cu 21 caneluri la priza de putere",
+                  "Lest monobloc de 1.500 kg",
+                  "Cate 2 mase de lestare de 250 kg pe fiecare roata spate (montate la exterior)",
+                  "Brand anvelope fata si spate Michelin",
+                  "Anvelope fata 600/70R30 WA & spate 710/70 R42 W",
+                  "Parasolare fata, spate",
+                  "Stergator luneta si geam dreapta",
+                  "Auto Ghidare Trimble precizie centrimetrica NTRIP & SpeedSteer (semnal telefonie mobila RTK - terminal Fieldstar 5)",
+                  "Lumina de mers in marsarier",
+                  "Lumini de lucru, 16 LED, lumini cu semnatura"
+                ],
+                "IMAGES": [
+                  "./images/products/MF 8S/MF 8S 1.jpg",
+                  "./images/products/MF 8S/MF 8S 2.jpg",
+                  "./images/products/MF 8S/MF 8S 3.jpg",
+                  "./images/products/MF 8S/MF 8S 4.jpg"
+                ]
+              }
+            }
+          },
+          {
+            "ID": "P00010",
+            "NAME": "MF 8S.305",
+            "PRODUCT_DETAILS": {
+              "TITLE": "Tractor Agricol MASSEY FERGUSON",
+              "SUBTITLE": "MF 8S.305 DYNA-VT EXCLUSIVE",
+              "BRAND": "./images/MF.png",
+              "DETALII": {
+                "MOTOR": "AGCO POWER; 6 cilindri; 7,4 l; Putere nominala maxima 305 CP; Esapament lateral cu SCR- Stage 5; Regulator Electronic Motor; Separator apa combustibil; Ventilator standard; 50% antigel",
+                "TRANSMISIE": "CVT-Cutie de viteze cu transmisie variabilă continuă, conform Dotari Suplimentare; Cotiera multifunctionala cu MultiPad si Datatronic 5 integrat; Park lock;",
+                "SISTEM": "Conform Dotari Suplimentare; Debit ulei hidraulic, conform Dotari Suplimentare; Valve electrice CCLS a 1-a si a 2-a cu MicroJoystick pe MultiPad, maneta de decompresie; Valvele electrice  suplimentare conform Dotari Suplimentare; Hidraulica cu Power beyond, cuple P/T/LS/D; ",
+                "PUTERE": "Priza interschimbabila cu flansa 540Eco/1000 rpm, Arbore cu 6 caneluri + conform Dotari Suplimentare; Comenzi electronice din cabina pentru priza de putere; Comanda externa priza de putere;",
+                "FRANE": "Frane asistate hidraulic & valva de inalta presiune + Dotari Suplimentare",
+                "RIDICATOR": "Mecanism  in 3 puncte, Tiranti cu capete carlig Cat.3-a si stabilizatori automati, Bile si Conuri Cat 3/3 & 3/2; ELC cu mare capacitate de ridicare (10 tone); Comenzi externe ridicator pe ambele parti si comanda unei valve hidraulice; Ridicator fata, tirant central si cuple conform Dotari Suplimentare ",
+                "PUNTI": "Puntea fata cu suspensie; Puntea spate tip bara dreapta scurta HD",
+                "LESTARE": "Conform Dotari Suplimentare ",
+                "ROTI": "Aparatori fata pivotante de latime standard; Anvelope si aparatori spate conform Dotari Suplimentare",
+                "MEDIU": "Scaun auxiliar cu centura; Coloana volan reglabila & SpeedSteer; Scaun automat pivotant suspensie pneumatica & ventilat si incalzit, cu amortizare laterala, semi piele, spatar cu doua miscari; Radio conform Dotari Suplimentare; Acoperis standard cu trapa; Centura scaun; Oglinzi telescopice cu unghi mare cu reglaj si dezghetare electrica; Cabina cu suspensie mecanica activa; Filtrare aer Cat 2; Oglinda interioara; Aer conditionat automat cu management zonal flux aer; Afisare viteze in km/h; Stergator spalator luneta; Camera integrata in acoperis; + Dotari Suplimentare",
+                "FUSE": "Ecran tactil Datatronic 5 de 9”(management setari tractor, Isobus, pregatire camera) & MF vDisplay; Modulul de conectivitate (ACM) pentru transfer de date CAN, inclusiv abonament gratuit 5 ani; Task Doc, + Dotari Suplimentare",
+                "ECHIPAMENT": "Alternatoare de inalta capacitate; Comutator de izolare electrica si post pornire cu baterie de ajutor; 2 girofaruri pe acoperis cabina; 4 lumini de lucru cu LED pe acoperis cabina; 2 Lumini pe fata pentru drum si lumini suplimentare de lucru cu LED 2 pe fata si 2 pe spate; 1 priza electrica CEE + Dotari Suplimentare",
+                "DIVERSE": "Cu etichete; Cutie pentru scule; Culoare rosie MF;",
+                "MASA": "Min 8.700 kg",
+                "SUPLIMENTARE": [
+                  "Transmisie Dyna-VT, 50 km/h",
+                  "Sistem hidraulic CCLS ECO, cu debit 205 l/min",
+                  "Valvele electrice suplimentare a 3-a, a 4-a si a 5-a cu butoane pe cotiera, maneta de decompresie",
+                  "Sistem franare pneumatic pentru remorca cu priza ABS",
+                  "Ridicator frontal hidraulic de 4.800 kg Cat 3, cu valve electrice dedicate si Joystick",
+                  "Un set de cuple hidraulice fata",
+                  "Cupla automata pentru remorca, rapid reglabila (Germania), bara de tractiune piton fix",
+                  "Tirant superior hidraulic- capat carlig",
+                  "Un arbore suplimentar cu 21 caneluri pentru priza de putere",
+                  "Greutate ventrala",
+                  "Lest monobloc de 2.300 kg",
+                  "Cate 2 mase de lestare de 250 kg pe fiecare roata spate (montate la exterior)",
+                  "Brand anvelope fata si spate Michelin",
+                  "Anvelope fata VF 600/70 R30 WA & spate VF 710/70 R42 W",
+                  "Aparatori spate late 2,55m (2,35m + extensii de 10 cm)",
+                  "Radio/MP3/ Front Aux-in/Bluetooth/ conector USB, cu microfon integrat, comenzi in cotiera cu interfata advanced",
+                  "Stergatoare geam lateral dreapta si luneta",
+                  "Sistem dezghetare luneta",
+                  "Parasolare fata, spate si pe ambele parti",
+                  "Alarma la mers in marsarier",
+                  "Auto Ghidare Novatel Centimetre NTRIP (precizie centrimetrica) si SpeedSteer (RTK- semnal telefonie mobila, terminal Fieldstar 5)",
+                  "Ghidare Advanced Line",
+                  "Lumina de mers in marsarier",
+                  "Lumini de lucru, 16 LED, lumini cu semnatura"
+                ],
+                "IMAGES": [
+                  "./images/products/MF 8S/MF 8S 1.jpg",
+                  "./images/products/MF 8S/MF 8S 2.jpg",
+                  "./images/products/MF 8S/MF 8S 3.jpg",
+                  "./images/products/MF 8S/MF 8S 4.jpg"
+                ]
+              }
+            }
+          }
+        ]
+      },
+
+      {
+        "ID": "SC00003",
+        "NAME": "MF 7S",
+        "PRODUCTS": [
+          {
+            "ID": "P00011",
+            "NAME": "MF 7S.155",
+            "PRODUCT_DETAILS": {
+              "TITLE": "Tractor Agricol MASSEY FERGUSON",
+              "SUBTITLE": "MF 7S.155 DYNA-6 Essential",
+              "BRAND": "./images/MF.png",
+              "DETALII": {
+                "MOTOR": "AGCO POWER; 6 cilindri; 6,6 l; Putere nominala maxima 155 CP @2.000 rpm; Esapament lateral cu SCR- Stage 5; Regulator Electronic Motor; Amplificare putere la motor cu EPM (max 175 CP); Separator apa combustibil; Ventilator standard; 50% antigel",
+                "TRANSMISIE": "Dyna-6, 40 km/h, Autodrive; Cutie de viteze cu 24 rapoarte; 6 viteze Powershift, 4 game, schimbare automata functie de turatia si sarcina motorului. ( 40 km/h la 1.500 rpm pentru economie de combustibil) Maneta inversare sens (Power Control Lever); Maneta T in centrul de comanda",
+                "SISTEM": "Tip centru inchis (CCLS); Debit ulei hidraulic 110l/min; 3 valve mecanice CCLS a-1-a, a 2-a si a-3-a (ZL+KO+FL); Colector scurgeri de ulei;",
+                "PUTERE": "Priza interschimbabila cu flansa 540/1.000/ rpm, Arbore cu 6 caneluri; Comenzi din cabina pentru priza de putere; Comanda externa priza de putere (aparatoare spate); Turatie motor pentru actionare priza- 2.000 rpm",
+                "FRANE": "Frane asistate hidraulic & valva de inalta presiune + Dotari Suplimentare",
+                "RIDICATOR": "Mecanism  in 3 puncte, Tiranti cu capete carlig Cat.3-a Bile si Conuri Cat 3/3 & 3/2; Stabilizatoare telescopice flotante variabile Heavy-duty; ELC cu mare capacitate de ridicare (7,1 tone); Comenzi externe ridicator pe ambele parti; Cupla remorca rapid reglabila manual, bara tractare & bolt fix ",
+                "PUNTI": "Puntea fata fata 4WD cu pivot inalt; Puntea spate cu flanse",
+                "LESTARE": "Conform Dotari Suplimentare ",
+                "ROTI": "Aparatori fata, anvelope fata si spate conform Dotari Suplimentare; Aparatori spate late 2,28 m cu extensii;",
+                "MEDIU": "Aer conditionat; Radio conform Dotari Suplimentare; Scaun auxiliar cu centura; Cabina standard; Ceas; Oglinzi telescopice cu unghi larg; Oglinda interioara; Acoperis standard; Centura scaun operator;  Scaun operator cu suspensie pneumatica si cotiere; Afisare viteze in km/h; Coloana volan reglabila; Stergator spalator luneta ",
+                "FUSE": "Panou de instrumente analog și digital; Modul de conectivitate (ACM) pentru transfer de date CAN, include abonament gratuit 5 ani;",
+                "ECHIPAMENT": "Comutator de izolare electrica si post pornire; 1 girofar pe acoperis cabina; 1 priza electrice CEE; Alternatoare de capacitate standard; Lumini de lucru single, 4 pe fata si 4 pe spate; Lumini de lucru suplimentare, 2 pe fata si 2 pe spate",
+                "DIVERSE": "Culoare rosie MF; Cu etichete; Teste de calitate & verificari scurgeri de ulei; Pachet de tara Romania; Cutie pentru scule; ",
+                "MASA": "Circa 6.700 kg",
+                "SUPLIMENTARE": [
+                  "Sistem franare, pneumatic, pentru remorca cu priza ABS",
+                  "Lest fata 12 x 55 kg + masa cuplei de tractare",
+                  "Aparatori roti fata pivotante de latime standard",
+                  "Brand anvelope fata si spate Michelin",
+                  "Anvelope fata 480/65 R28 W14 W & spate 600/65 R38 W18 WF",
+                  "Radio, CD, MP3, Egalizator, Bluetooth, USB, SD & Aux frontal"
+                ],
+                "IMAGES": [
+                  "./images/products/MF 7S/MF 7S 155.jpg",
+                  "./images/products/MF 7S/MF 7S 155 1.jpg",
+                  "./images/products/MF 7S/MF 7S 1.jpg",
+                  "./images/products/MF 7S/MF 7S 3.jpg",
+                  "./images/products/MF 7S/MF 7S 4.jpg"
+                ]
+              }
+            }
+          },
+          {
+            "ID": "P00012",
+            "NAME": "MF 7S.165",
+            "PRODUCT_DETAILS": {
+              "TITLE": "Tractor Agricol MASSEY FERGUSON",
+              "SUBTITLE": "MF 7S.165 DYNA-6 EFFICIENT",
+              "BRAND": "./images/MF.png",
+              "DETALII": {
+                "MOTOR": "AGCO POWER; 6 cilindri; 6,6 l; Putere nominala maxima 165 CP; Esapament lateral cu SCR- Stage 5; Regulator Electronic Motor; Amplificare putere la motor cu EPM (max 185 CP); Separator apa combustibil; Ventilator standard; 50% antigel",
+                "TRANSMISIE": "Dyna-6 40 km/h Autodrive; Cutie de viteze cu 24 rapoarte; 6 viteze Powershift, 4 game, schimbare automată functie de turatia si sarcina motorului. ( 40 km/h la 1.500 rpm pentru economia de combustibil) Cotiera multifunctionala cu MultiPad; ",
+                "SISTEM": "Tip centru inchis (CCLS); Debit ulei hidraulic 110l/min; Valve electrice, a-1-a si a 2-a, MicroJoystick pe Multipad; Valve mecanice pentru sistem hidraulic tip CCLS, a 3-a si a 4-a (ZL+KO+FL); Colector scurgeri de ulei;",
+
+                "PUTERE": "Priza interschimbabila cu flansa 540/1000/ rpm, Arbori cu 6 si 21 de caneluri; Comenzi standard & eco din cabina pentru priza de putere; Comanda externa priza de putere (aparatoare spate); Turatia motor pentru priza- 2.000 rpm",
+
+                "FRANE": "Frane asistate hidraulic & valva de inalta resiune + Dotari Suplimentare",
+                "RIDICATOR": "Mecanism  in 3 puncte, Tiranti cu capete carlig Cat.3-a si stabilizatori automati, Bile si Conuri Cat 3/3 & 3/2; ELC cu mare capacitate de ridicare (7,1 tone); Comenzi externe ridicator pe ambele parti si comanda unei valve hidraulice; Recuperator ulei hidraulic; Cupla remorca manuala, rapid reglabila, bara tractare & piton fix; Ridicator frontal conform Dotari Suplimentare",
+                "PUNTI": "Puntea fata cu suspensie; Puntea spate cu flanse",
+                "LESTARE": "Conform Dotari Suplimentare ",
+                "ROTI": "Aparatori fata, anvelope fata si spate conform Dotari Suplimentare; Aparatori spate late 2,0 m cu extensii;",
+                "MEDIU": "Cabina cu suspensie mecanica; Scaun auxiliar cu centura; Coloana volan reglabila; Scaun operator cu suspensie pneumatica si cotiere; Radio/Auxiliare fontale/Bluetooth /conector USB cu microfon integrat, butoane control pe cotiera; Acoperis standard; Centura scaun operator; Oglinzi telescopice cu unghi larg; Oglinda interioara; Aer conditionat; Afisare viteze in km/h; Stergator spalator luneta; ",
+                "FUSE": "Panou de instrumente analog și digital; Modul de conectivitate (ACM) pentru transfer de date CAN, include abonament gratuit 5 ani;",
+                "ECHIPAMENT": "Alternatoare de capacitate standard; Comutator de izolare electrica si post pornire cu baterie de ajutor; 1 girofar pe acoperis cabina; Lumini de lucru unice, 4 pe fata si 4 pe spate + Dotari Suplimentare; 2 prize electrice CEE;",
+                "DIVERSE": "Cu etichete; Cutie pentru scule; Culoare rosie MF;",
+                "MASA": "Min 5.800 kg",
+                "SUPLIMENTARE": [
+                  "Sistem franare pneumatic pentru remorca cu priza ABS",
+                  "Ridicator frontal 3,2 t + 1 set cuple hidraulice",
+                  "Lest spate: 1 x 250 Kg pe fiecare roata spate (montat la exterior)",
+                  "Lest fata: monobloc 850 kg",
+                  "Aparatori roti fata pivotante de latime standard",
+                  "Brand anvelope fata si spate Michelin",
+                  "Anvelope fata 540/65 R28 W15 W & spate 650/65 R38 W18 WF",
+                  "Lumini de lucru suplimentare, 2 pe fata si 2 pe spate + 2 lumini de drum pe fata"
+                ],
+                "IMAGES": [
+                  "./images/products/MF 7S/MF 7S 1.jpg",
+                  "./images/products/MF 7S/MF 7S 3.jpg",
+                  "./images/products/MF 7S/MF 7S 4.jpg"
+                ]
+              }
+            }
+          },
+          {
+            "ID": "P00013",
+            "NAME": "MF 7S.180",
+            "PRODUCT_DETAILS": {
+              "TITLE": "Tractor Agricol MASSEY FERGUSON",
+              "SUBTITLE": "MF 7S.180 DYNA-6 Efficient",
+              "BRAND": "./images/MF.png",
+              "DETALII": {
+                "MOTOR": "AGCO POWER; 6 cilindri; 6,6 l; Putere nominala maxima 180 CP; Esapament lateral cu SCR- Stage 5; Regulator Electronic Motor; Amplificare putere la motor cu EPM (max 210 CP); Separator apa combustibil; Ventilator standard; 50% antigel; rezervor combustibil 305 l; Rezervor AdBlue 30 l",
+                "TRANSMISIE": "Dyna-6, 40 km/h, Autodrive; Cutie de viteze cu 24 rapoarte; 6 viteze Powershift, 4 game, schimbare automată functie de turatia si sarcina motorului. ( 40 km/h la 1.500 rpm pentru economia de combustibil) Cotiera multifunctionala cu MultiPad; ",
+                "SISTEM": "Tip centru inchis (CCLS); Debit ulei hidraulic 110 l/min; Valve electrice, a-1-a si a 2-a, comandate prin MicroJoystick de pe Multipad, cu maneta de decompresie; Valve mecanice  pentru sistem hidraulic tip CCLS, a 3-a si a 4-a (ZL+KO+FL); Colector scurgeri de ulei; + Dotari Suplimentare",
+
+                "PUTERE": "Priza interschimbabila cu flansa 540/1000/ rpm, Arbori cu 6 si 21 de caneluri; Comenzi standard & eco din cabina pentru priza de putere; Comanda externa priza de putere (aparatoare spate); Turatia motor pentru actionare priza- 2.000 rpm",
+
+                "FRANE": "Frane asistate hidraulic & valva de inalta presiune + Dotari Suplimentare",
+                "RIDICATOR": "Mecanism  in 3 puncte, Tiranti cu capete carlig Cat.3-a si , Bile si Conuri Cat 3/3 & 3/2; Stabilizatoare telescopice flotante variabile Heavy-duty; ELC cu mare capacitate de ridicare (8,1 tone); Comenzi externe ridicator pe ambele parti si comanda unei valve hidraulice; Recuperator ulei hidraulic; Cupla remorca manuala, rapid reglabila, bara tractare & piton fix; Ridicator frontal conform Dotari Suplimentare;",
+                "PUNTI": "Puntea fata cu suspensie; Puntea spate cu flanse",
+                "LESTARE": "Masa ventrala + Dotari Suplimentare ",
+                "ROTI": "Anvelope fata, spate si aparatori fata conform Dotari Suplimentare; Aparatori spate late 2,28 m cu extensii;",
+                "MEDIU": "Aer conditionat; Radio/Auxiliare fata/Bluetooth/conector USB cu microfon integrat, comezi intrgrate in cotiera; Scaun auxiliar cu centura; Cabina cu suspensie mecanica; Ceas; Oglinzi telescopice cu unghi larg; Oglinda interioara; Acoperis standard; Centura scaun operator; Scaun operator cu suspensie pneumatica, oscilant, cu cotiere; Afisare viteze in km/h; Coloana volan conform Dotari Suplimentare; Stergator spalator luneta; ",
+                "FUSE": "Modul de conectivitate (ACM) pentru transfer de date CAN, include abonament gratuit 5 ani; + Dotari Suplimentare",
+                "ECHIPAMENT": "Comutator de izolare electrica si post pornire cu baterie de ajutor; 1 girofar pe acoperis cabina; 2 prize electrice CEE; Alternatoare de capacitate marita; Lumini de lucru pe acoperis cabina, 4 pe fata si 4 pe spate + Dotari Suplimentare;",
+                "DIVERSE": "Culoare rosie MF; Cu etichete; Teste de calitate & verificari scurgeri de ulei; Pachet de tara Romania; Cutie pentru scule",
+                "MASA": "Circa 7.200 kg",
+                "SUPLIMENTARE": [
+                  "Hidraulica Power Beyond cuple P/T/LS/D",
+                  "Sistem franare pneumatic pentru remorca cu priza ABS",
+                  "Ridicator frontal 3,2 t + 1 set cuple hidraulice",
+                  "Lest spate 1 x 250 Kg pe fiecare roata spate (montat la exterior)",
+                  "Lest fata monobloc 850 kg",
+                  "Aparatori roti fata pivotante de latime standard",
+                  "Brand anvelope fata si spate Michelin",
+                  "Anvelope fata 540/65 R28 W15 W & spate 650/65 R38 W20 WF",
+                  "Coloana volan reglabila si SpeedSteer",
+                  "Monitor tactil Datatronic 5, diagonala 9” (setari functii tractor, ISOBUS, pregatire camera video)",
+                  "Task Doc",
+                  "Autoghidare Trimble NTRIP cu precizie centrimetrica",
+                  "Lumini de lucru suplimentare, 2 pe fata si 2 pe spate + 2 lumini de drum pe fata"
+                ],
+                "IMAGES": [
+                  "./images/products/MF 7S/MF 7S 1.jpg",
+                  "./images/products/MF 7S/MF 7S 3.jpg",
+                  "./images/products/MF 7S/MF 7S 4.jpg"
+                ]
+              }
+            }
+          },
+          {
+            "ID": "P00014",
+            "NAME": "MF 7S.190",
+            "PRODUCT_DETAILS": {
+              "TITLE": "Tractor Agricol MASSEY FERGUSON",
+              "SUBTITLE": "MF 7S.190 DYNA-VT EXCLUSIVE",
+              "BRAND": "./images/MF.png",
+              "DETALII": {
+                "MOTOR": "AGCO POWER; 6 cilindri; 6,6 l; Putere nominala maxima 190CP; Esapament lateral cu SCR- Stage 5; Regulator Electronic Motor; Amplificare putere la motor cu EPM (max 220CP); Separator apa combustibil; Ventilator standard; 50% antigel",
+                "TRANSMISIE": "Dyna-VT 40 km/h; Cutie de viteze cu transmisie cu variatie continua; Cotiera multifunctionala cu maneta MultiPad; ",
+                "SISTEM": "Cu centru inchis (CCLS); Debit ulei hidraulic, conform Dotari Suplimentare; Valve electrice CCLS a 1-a si a 2-a cu MicroJoystick pe MultiPad, maneta de decompresie; Valvele electrice a 3-a si a 4-a comanda butoane; Recuperator ulei; Hidraulica cu Power beyond, cuple P/T/LS/D; ",
+
+                "PUTERE": "Priza interschimbabila cu flansa 540/1000/ rpm, Arbori cu 6 si 21 de caneluri; Comenzi electronice din cabina pentru priza de putere Std & Eco; Comanda externa priza de putere;",
+
+                "FRANE": "Frane asistate hidraulic & valva de inalta presiune + Dotari Suplimentare",
+                "RIDICATOR": "Mecanism in 3 puncte, Tiranti cu capete carlig Cat.3-a, Bile si Conuri Cat 3/3 & 3/2; Stabilizatori flotanti pt sarcini grele, ELC cu mare capacitate de ridicare (9,6 t); Comenzi externe ridicator pe ambele parti si comanda unei valve hidraulice; Dispozitive tractare si ridicator fata conform Dotari Suplimentare",
+                "PUNTI": "Puntea fata cu suspensie; Puntea spate cu flanse; Etansare pentru camp inundat",
+                "LESTARE": "Masa ventrala + lest conform Dotari Suplimentare ",
+                "ROTI": "Aparatori fata pivotante de latime standard; Anvelope fata si spate conform Dotari Suplimentare; Aparatori spate late 2,28 m cu extensii;",
+                "MEDIU": "Scaun auxiliar cu centura; Coloana volan, scaun operator si radio conform Dotari Suplimentare; Acoperis standard cu trapa; Centura scaun operator; Oglinzi telescopice cu unghi mare cu reglaj si dezghetare electrica; Cabina cu suspensie mecanica activa; Filtrare aer Cat 2 (protectie praf); Oglinda interioara; Aer conditionat automat; Afisare viteze in km/h; Stergator spalator luneta; ",
+                "FUSE": "Ecran tactil Datatronic 5 de 9”(management setari tractor, Isobus, pregatire camera) & MF vDisplay; Modulul de conectivitate (ACM) pentru transfer de date CAN, inclusiv abonament gratuit 5 ani; Task Doc, + Dotari Suplimentare",
+                "ECHIPAMENT": "Alternatoare de inalta capacitate; Comutator de izolare electrica si post pornire cu ajutor extern; 1 girofar pe acoperis cabina; Lumini conform Dotari Suplimentare; 2 prize electrice CEE;",
+                "DIVERSE": "Cu etichete; Cutie pentru scule; Culoare rosie MF;",
+                "SUPLIMENTARE": [
+                  "Sistem hidraulic CCLS, cu debit 190 l/min",
+                  "Sistem franare pneumatic pentru remorca cu priza ABS",
+                  "Ridicator frontal hidraulic de 4.000 kg",
+                  "Un set de cuple hidraulice fata",
+                  "Cupla automata pentru remorca rapid reglabila, Bara de tractiune, Bolt Fix",
+                  "Lest monobloc de 850 kg",
+                  "Cate 1 lest de 250 Kg pe fiecare roata spate (montat la exterior)",
+                  "Brand anvelope fata si spate Michelin",
+                  "Anvelope fata 480/65 R28 W & spate 600/65 R38 WF",
+                  "Scaun operator Deluxe – Sistem de amortizare dinamica (DDS), suspensie laterala, incalzit 2 pozitii, tetiera rotativa",
+                  "Radio/MP3/Auxiliare fata/ Bluetooth/ conector USB, cu microfon integrat, comenzi in cotiera si interfata advanced",
+                  "Coloana volan reglabila & SpeedSteer",
+                  "Auto Ghidare Novatel SM (precizie decimetrica) si SpeedSteer",
+                  "Lumini de lucru LED pe acoperis, 4 pe fata si 4 pe spate",
+                  "Lumini de lucru LED suplimentare, 2 pe fata si 2 pe spate + 2 lumini de drum pe fata",
+                  "Lumini de lucru, 16 LED, lumini cu semnatura"
+                ],
+                "IMAGES": [
+                  "./images/products/MF 7S/MF 7S 190 1.jpg",
+                  "./images/products/MF 7S/MF 7S 190.jpg",
+
+                  "./images/products/MF 7S/MF 7S 1.jpg",
+                  "./images/products/MF 7S/MF 7S 3.jpg",
+                  "./images/products/MF 7S/MF 7S 4.jpg"
+                ]
+              }
+            }
+          },
+          {
+            "ID": "P00015",
+            "NAME": "MF 7S.210",
+            "PRODUCT_DETAILS": {
+              "TITLE": "Tractor Agricol MASSEY FERGUSON",
+              "SUBTITLE": "MF 7S.210 DYNA-VT Efficient",
+              "BRAND": "./images/MF.png",
+              "DETALII": {
+                "MOTOR": "AGCO POWER; 6 cilindri; 6,6 l; Putere nominala maxima 210 CP; Esapament lateral cu SCR- Stage 5; Regulator Electronic Motor; Amplificare putere la motor cu EPM (max 220 CP); Separator apa combustibil; Ventilator standard; 50% antigel; Rezervor combustibil 305 l; Rezervor AdBlue 30 l",
+                "TRANSMISIE": "Cutie de viteze tip CVT - viteza continuu variabila, conform Dotari Suplimentare; Maneta MultiPad pe cotiera; ",
+                "SISTEM": "Tip centru inchis (CCLS); Debit ulei hidraulic conform Dotari Suplimentare; Valve electrice, a-1-a si a 2-a, comandate prin MicroJoystick de pe Multipad, cu maneta de decompresie; Valve mecanice  pentru sistem hidraulic tip CCLS, a 3-a si a 4-a (ZL+KO+FL); Colector scurgeri de ulei; ",
+
+                "PUTERE": "Priza interschimbabila cu flansa 540/1.000/ rpm, Arbori cu 6 si 21 de caneluri; Comenzi standard & eco din cabina pentru priza de putere; Comanda externa priza de putere (aparatoare spate); Turatia motor pentru actionare priza- 2.000 rpm",
+
+                "FRANE": "Frane asistate hidraulic & valva de inalta presiune + Dotari Suplimentare",
+                "RIDICATOR": "Mecanism  in 3 puncte, Tiranti cu capete carlig Cat.3-a si , Bile si Conuri Cat 3/3 & 3/2; Stabilizatoare telescopice flotante variabile Heavy-duty; ELC cu mare capacitate de ridicare (9,6 tone); Comenzi externe ridicator pe ambele parti si comanda unei valve hidraulice; Recuperator ulei hidraulic; Cupla remorca si ridicator frontal conform Dotari Suplimentare;",
+                "PUNTI": "Puntea fata cu suspensie; Puntea spate cu flanse; Etansare completa pentru camp inundat",
+                "LESTARE": "Masa ventrala + Dotari Suplimentare ",
+                "ROTI": "Anvelope fata, spate si aparatori fata conform Dotari Suplimentare; Aparatori spate late 2,28 m cu extensii",
+                "MEDIU": "Aer conditionat; Radio/Auxiliare fata/Bluetooth/conector USB cu microfon integrat, comezi intrgrate in cotiera; Scaun auxiliar cu centura; Cabina cu suspensie mecanica; Ceas; Oglinzi telescopice cu unghi larg; Oglinda interioara; Acoperis standard; Centura scaun operator; Scaun operator, pivotant, cu suspensie pneumatica ; Afisare viteze in km/h; Coloana volan reglabila; Stergator spalator luneta; ",
+                "FUSE": "Modul de conectivitate (ACM) pentru transfer de date CAN, include abonament gratuit 5 ani; + Dotari Suplimentare",
+                "ECHIPAMENT": "Comutator de izolare electrica si post pornire cu baterie de ajutor; 1 girofar pe acoperis cabina; 2 prize electrice CEE; Alternatoare de capacitate marita; Lumini de lucru pe acoperis cabina, 4 pe fata si 4 pe spate; Lumini suplimentare de lucru si de drum conform Dotari Suplimentare; ",
+                "DIVERSE": "Culoare rosie MF; Cu etichete; Teste de calitate & verificari scurgeri de ulei; Pachet de tara Romania; Cutie pentru scule;",
+                "MASA": "Circa 7.000 kg",
+                "SUPLIMENTARE": [
+                  "Transmisie DYNA VT, 50 km/h",
+                  "Debit circuit hidraulic 190 l/min",
+                  "Hidraulica Power Beyond cuple P/T/LS/D",
+                  "Sistem franare pneumatic pentru remorca cu priza ABS",
+                  "Cupla remorca automata, rapid reglabila, bara tractare & bolt fix",
+                  "Ridicator frontal 4,0 t + 1 set cuple hidraulice",
+                  "Lest fata monobloc 850 kg",
+                  "Lest spate 1 x 250 Kg pe fiecare roata spate (montat la exterior)",
+                  "Aparatori roti fata pivotante de latime standard",
+                  "Brand anvelope fata si spate Michelin",
+                  "Anvelope fata 540/65 R28 W15 W & spate 650/65 R38 W20 WF",
+                  "Monitor tactil Datatronic 5, diagonala 9” (setari functii tractor, ISOBUS, pregatire camera video) & MF vDisplay",
+                  "Task Doc",
+                  "Lumini de lucru suplimentare, 2 pe fata si 2 pe spate + 2 lumini de drum pe fata"
+                ],
+                "IMAGES": [
+                  "./images/products/MF 7S/MF 7S 1.jpg",
+                  "./images/products/MF 7S/MF 7S 3.jpg",
+                  "./images/products/MF 7S/MF 7S 4.jpg"
+                ]
               }
             }
           }
