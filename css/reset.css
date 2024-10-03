@@ -7,7 +7,7 @@
 
 html,
 body {
-  height: 100%;
+  height: auto;
   font-family: Arial, sans-serif;
   line-height: 1.6;
 }
@@ -17,7 +17,7 @@ img,
 picture,
 video,
 canvas {
-  max-width: 100%;
+  /* max-width: 100%; */
   display: block;
 }
 
@@ -37,4 +37,14 @@ button {
   background: none;
   border: none;
   cursor: pointer;
+}
+
+textarea:focus,
+input:focus,
+select:focus {
+  outline: none;
+}
+
+input[type="radio"] {
+  accent-color: #c41230;
 }
