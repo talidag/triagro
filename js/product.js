@@ -78,6 +78,8 @@ document.addEventListener("DOMContentLoaded", function () {
       { label: "Sistem Hidraulic", value: details.DETALII.SISTEM },
       { label: "Priza de putere", value: details.DETALII.PUTERE },
       { label: "Frâne", value: details.DETALII.FRANE },
+      { label: "Roti/Pneuri/Punti", value: details.DETALII.ROTIP2 },
+
       {
         label: "Ridicator Hidraulic si Cuple",
         value: details.DETALII.RIDICATOR,
@@ -87,6 +89,16 @@ document.addEventListener("DOMContentLoaded", function () {
       { label: "Lestare", value: details.DETALII.LESTARE },
       { label: "Roti/Anvelope/Aparatori", value: details.DETALII.ROTI },
       { label: "Mediu Operator", value: details.DETALII.MEDIU },
+      { label: "Comenzi", value: details.DETALII.COMENZI },
+      { label: "Orizontalizare", value: details.DETALII.ORIZONTALIZARE },
+
+      { label: "Buncar boabe", value: details.DETALII.BUNCAR },
+      { label: "Elevator frontal", value: details.DETALII.ELEVATOR },
+      { label: "Aparat de treier", value: details.DETALII.TREIER },
+      { label: "Separare", value: details.DETALII.SEPARARE },
+      { label: "Curatire", value: details.DETALII.CURATIRE },
+      { label: "Tocator paie", value: details.DETALII.TOCATOR },
+
       { label: "Tehnologia Fuse", value: details.DETALII.FUSE },
       {
         label: "Echipament Electric",
@@ -110,14 +122,19 @@ document.addEventListener("DOMContentLoaded", function () {
         </tbody>
     </table>
 
-    <div class="product-extra"> 
-        <h4>Dotari Suplimentare</h4>
+    ${
+      details.DETALII.SUPLIMENTARE.length > 0
+        ? `    <div class="product-extra"> 
+<h4>Dotari Suplimentare</h4>
         <ul>
             ${details.DETALII.SUPLIMENTARE.map(
               (item) => `<li>${item}</li>`
             ).join("")}
-        </ul>
-    </div>
+        </ul>    </div>
+`
+        : ""
+    }
+       
     
     <button class="end-btn"  onclick="window.open('tel:900300400');">Contacteaza-ne acum pentru o oferta!</button> 
 `;
