@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", function () {
   hamburgerMenuIcon.addEventListener("click", function () {
     hamburgerMenuIcon.style.display = "none";
     closeMenuIcon.style.display = "block";
-    headerTop.style.display = "flex";
+    // headerTop.style.display = "flex";
     headerBot.style.display = "flex";
     // document.body.style.overflow = "hidden";
   });
