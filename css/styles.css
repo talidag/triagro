@@ -32,12 +32,6 @@ header {
   box-shadow: 3px 12px 10px -15px var(--crimson);
 }
 
-.header-menu {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
 #logo-header {
   position: absolute;
   left: 124px;
@@ -104,20 +98,7 @@ nav > ul > li:hover {
   transition: color 0.3s ease;
 }
 
-.navbar > li {
-  /* position: relative; */
-}
-
-.submenu {
-  position: absolute;
-  /* display: none; */
-
-  left: 200px;
-  top: auto;
-  background-color: var(--gray);
-  z-index: 88;
-  /* width: 60%; */
-}
+/* Submenu */
 
 .menu-big {
   display: flex;
@@ -130,21 +111,19 @@ nav > ul > li:hover {
   font-weight: bold;
   display: flex;
   flex-direction: column;
-  /* display: none; */
-  opacity: 1;
+  display: none;
+  /* opacity: 0; */
   position: absolute;
   left: 0;
   top: 70px;
   width: 100%;
   align-items: start;
-  /* flex-direction: row; */
 }
 
 .menu-big {
   display: flex;
   align-items: start;
   justify-content: space-between;
-  /* width: 100%; */
 }
 
 .submenu-big li {
@@ -160,14 +139,13 @@ nav > ul > li:hover {
 }
 
 #utilaje-link:hover > .submenu-big {
-  opacity: 1;
+  display: block;
 }
-/* Initially hide all submenus */
+
 .submenu-big ul {
   display: none;
 }
 
-/* Show the submenu of the currently hovered li */
 .submenu-big li:hover > ul {
   display: flex;
   justify-content: space-evenly;
@@ -182,19 +160,18 @@ nav > ul > li:hover {
   font-weight: normal;
 }
 
-/* Optional: Add some styling for a better visual indication */
 .submenu-big li {
-  position: relative; /* Allow positioning of submenus */
+  position: relative;
 }
 
 .submenu-big li a {
-  display: block; /* Makes the link fill the li */
-  padding: 10px; /* Adds padding for easier clicking */
-  text-decoration: none; /* Remove underline from links */
+  display: block;
+  padding: 10px;
+  text-decoration: none;
 }
 
 .submenu-big li a:hover {
-  background-color: #f0f0f0; /* Change background on hover */
+  background-color: #f0f0f0;
 }
 
 .menu li {
@@ -231,16 +208,20 @@ nav > ul > li:hover {
   left: 500px;
 }
 
+/* DELETE? */
+.submenu {
+  position: absolute;
+  display: none;
+  left: 200px;
+  top: auto;
+  background-color: var(--gray);
+  z-index: 88;
+}
 .submenu li:hover > .submenu {
   display: block;
   top: 0;
   left: 100%;
 }
-
-.submenu li:hover {
-  /* position: relative; */
-}
-
 .submenu a {
   text-decoration: none;
   color: #333;
