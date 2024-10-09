@@ -547,46 +547,43 @@
       </div>
     </header>
 
-    <main>
-      <div>
-        <div id="products"></div>
+    <main id="products-main">
+      <div class="products-back">
+        <a href="index.html">← Inapoi la pagina principala</a>
       </div>
-      <h1 id="page-title"></h1>
-      <p id="page-content"></p>
-      <div class="back">
-        <a href="index.html">← Inapoi la lista de rezultate</a>
-      </div>
+      <button class="products-mobile-filters">Filtreaza</button>
+      <div class="products-container">
+        <form id="utilajForm">
+          <button class="utilaj-x">x</button>
+          <!-- Cauta Utilaj Input -->
+          <div>
+            <label for="cautaUtilaj">Cauta utilaj</label>
+            <input type="text" id="cautaUtilaj" name="cautaUtilaj" />
+          </div>
 
-      <form id="utilajForm">
-        <!-- Cauta Utilaj Input -->
-        <div>
-          <label for="cautaUtilaj">Cauta utilaj</label>
-          <input type="text" id="cautaUtilaj" name="cautaUtilaj" />
-        </div>
+          <!-- Categorie Dropdown -->
+          <div>
+            <label for="categorie">Categorie</label>
+            <select id="categorie" name="categorie">
+              <option value="">Toate categoriile</option>
+              <option value="tractoare-premium">
+                Tractoare Premium Second Hand Massey Ferguson
+              </option>
+              <option value="combine-premium">
+                Combine Premium Second Hand Massey Ferguson
+              </option>
+              <option value="hedere">Hedere de Recoltat</option>
+              <option value="zootehnie">Utilaje Zootehnie</option>
+              <option value="prelucrare-sol">Utilaje Prelucrare Solul</option>
+              <option value="semanatori">Semanatori</option>
+              <option value="protectia-plantelor">Protectia Plantelor</option>
+              <option value="transport">Transport</option>
+              <option value="incarcatoare">Incarcatoare</option>
+            </select>
+          </div>
 
-        <!-- Categorie Dropdown -->
-        <div>
-          <label for="categorie">Categorie</label>
-          <select id="categorie" name="categorie">
-            <option value="">Selecteaza o categorie</option>
-            <option value="tractoare-premium">
-              Tractoare Premium Second Hand Massey Ferguson
-            </option>
-            <option value="combine-premium">
-              Combine Premium Second Hand Massey Ferguson
-            </option>
-            <option value="hedere">Hedere de Recoltat</option>
-            <option value="zootehnie">Utilaje Zootehnie</option>
-            <option value="prelucrare-sol">Utilaje Prelucrare Solul</option>
-            <option value="semanatori">Semanatori</option>
-            <option value="protectia-plantelor">Protectia Plantelor</option>
-            <option value="transport">Transport</option>
-            <option value="incarcatoare">Incarcatoare</option>
-          </select>
-        </div>
-
-        <!-- Stare Radio Buttons -->
-        <!-- <div class="formStare">
+          <!-- Stare Radio Buttons -->
+          <!-- <div class="formStare">
           <label>Stare</label>
           <div class="formStare-all">
             <div>
@@ -623,21 +620,27 @@
           </div>
         </div> -->
 
-        <!-- Pret (Euro) Input Fields -->
-        <div>
+          <!-- Pret (Euro) Input Fields -->
+          <!-- <div>
           <label for="pretMin">Pret minim (Euro) </label>
           <input type="number" id="pretMin" name="pretMin" min="0" />
         </div>
         <div>
           <label for="pretMax">Pret maxim (Euro)</label>
           <input type="number" id="pretMax" name="pretMax" min="0" />
-        </div>
+        </div> -->
 
-        <!-- Submit Button -->
-        <div>
-          <button type="submit">Cauta</button>
-        </div>
-      </form>
+          <!-- Submit Button -->
+          <div>
+            <button type="submit">Cauta</button>
+          </div>
+        </form>
+        <div class="products-all"></div>
+      </div>
+
+      <h1 id="page-title"></h1>
+      <p id="page-content"></p>
+      <div class="back"></div>
     </main>
     <footer>
       <div class="footer-container">
