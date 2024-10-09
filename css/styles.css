@@ -106,6 +106,14 @@ header {
   padding: 14px;
 }
 
+#utilaje-li a {
+  border: 1px solid var(--dgray);
+}
+
+#utilaje-li > a {
+  border: none;
+}
+
 /* .navbar > ul > li:hover {
   color: var(--crimson);
   transition: color 0.3s ease;
@@ -133,10 +141,6 @@ header {
 }
 
 #menu-bar {
-  display: none;
-}
-
-label {
   display: none;
 }
 
@@ -174,11 +178,16 @@ label {
     background-color: var(--white);
     width: 100vw;
   }
-
+  .navbar {
+    height: calc(100vh + 93px);
+    overflow-y: scroll;
+  }
   .navbar ul {
     flex-direction: column;
     top: 0;
     position: absolute;
+    overflow-y: scroll;
+    padding-top: 50px;
   }
 
   /* header {

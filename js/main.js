@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", function () {
     closeMenuIcon.style.display = "block";
     headerTop.style.display = "flex";
     headerBot.style.display = "flex";
-    // document.body.style.overflow = "hidden";
+    document.body.style.overflow = "hidden";
   });
 
   closeMenuIcon.addEventListener("click", function () {
