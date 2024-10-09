@@ -1,6 +1,6 @@
 // Navbar
 
-document.querySelectorAll(".navbar > li").forEach((item) => {
+document.querySelectorAll(".navbar ul > li").forEach((item) => {
   item.addEventListener("mouseenter", function () {
     const submenu = this.querySelector(".submenu");
     if (submenu) submenu.style.display = "block"; // Show submenu on hover
@@ -81,14 +81,14 @@ const closeMenuIcon = document.querySelector(".close-menu-icon");
 const navLinksList = document.querySelector(".nav__links__list");
 const navLinks = document.querySelectorAll(".nav__links__list a");
 const logoEl = document.querySelector(".nav-logo-container");
-const headerTop = document.querySelector(".header-top");
+const headerTop = document.querySelector(".navbar");
 const headerBot = document.querySelector(".header-bot");
 
 document.addEventListener("DOMContentLoaded", function () {
   hamburgerMenuIcon.addEventListener("click", function () {
     hamburgerMenuIcon.style.display = "none";
     closeMenuIcon.style.display = "block";
-    // headerTop.style.display = "flex";
+    headerTop.style.display = "flex";
     headerBot.style.display = "flex";
     // document.body.style.overflow = "hidden";
   });
@@ -154,4 +154,14 @@ function closeMenu() {
     headerTop.style.display = "none";
     headerBot.style.display = "none";
   }
+}
+
+// Arrows
+
+const arrow = document.querySelectorAll(".arrow");
+
+if (window.innerWidth > 1200) {
+  arrow.forEach((arr) => (arr.innerHTML = " ▸"));
+} else {
+  arrow.forEach((arr) => (arr.innerHTML = " ▾"));
 }
