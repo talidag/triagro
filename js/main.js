@@ -12,21 +12,6 @@ document.querySelectorAll(".navbar ul > li").forEach((item) => {
   });
 });
 
-// Utilaje
-const utilaje = document.querySelectorAll(".utilaj");
-
-utilaje.forEach((utilaj) => {
-  utilaj.addEventListener("click", function () {
-    const productType = this.querySelector("p").textContent.trim();
-
-    const url = `products.html?product=${encodeURIComponent(
-      productType.toLowerCase()
-    )}`;
-
-    window.location.href = url;
-  });
-});
-
 // Parteneri scroller animation
 
 const scrollers = document.querySelectorAll(".scroller");

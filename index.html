@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -97,7 +97,7 @@
             aria-label="Meniul principal de navigare"
             class="nav__links__list"
           >
-            <li><a href="#acasa" aria-label="Sectiune acasa">Acasa</a></li>
+            <li><a href="#acasa" aria-label="Sectiune acasa">Acasă</a></li>
             <li id="utilaje-li">
               <a href="#utilaje" aria-label="Sectiune utilaje" id="utilaje-link"
                 >Utilaje ▾</a
@@ -505,11 +505,11 @@
               <a href="#service" aria-label="Sectiune service">Service</a>
             </li>
             <li>
-              <a href="#finantare" aria-label="Sectiune finantare">Finantare</a>
+              <a href="#finantare" aria-label="Sectiune finantare">Finanțare</a>
             </li>
             <li>
               <a href="#intrebari" aria-label="Sectiune intrebari frecvente"
-                >Intrebari frecvente</a
+                >Întrebări frecvente</a
               >
             </li>
             <li>
@@ -542,25 +542,25 @@
         </div>
 
         <div class="utilaje-toate">
-          <div class="utilaj">
+          <a class="utilaj" href="products.html?categorie=tractoare-premium">
             <img src="/images/tractoare.png" alt="" />
             <p>Tractoare</p>
-          </div>
-          <div class="utilaj">
+          </a>
+          <a class="utilaj" href="products.html?categorie=combine-premium">
             <img src="/images/combine.png" alt="" />
             <p>Combine</p>
-          </div>
-          <div class="utilaj">
-            <img src="/images/rec.png" alt="" />
-            <p>Recoltatoare</p>
-          </div>
-          <div class="utilaj">
-            <img src="/images/semanatori.png" alt="" />
-            <p>Semănători</p>
-          </div>
+          </a>
+          <a class="utilaj" href="products.html?categorie=hedere">
+            <img src="/images/hedere.png" alt="" />
+            <p>Hedere de recoltat</p>
+          </a>
+          <a class="utilaj" href="products.html?categorie=zootehnie">
+            <img src="/images/baloti.png" alt="" />
+            <p>Utilaje zootehnie</p>
+          </a>
         </div>
         <button onclick="location.href='products.html'" type="button">
-          Vezi Toate Produsele
+          Accesează Gama Completă
         </button>
       </section>
 
@@ -583,21 +583,21 @@
             <div class="despre-stats">
               <div class="despre-stat">
                 <p class="despre-nr">10+</p>
-                <p class="despre-stat-text">Ani de experienta</p>
+                <p class="despre-stat-text">Ani de experiență</p>
               </div>
               <div class="despre-stats-line"></div>
               <div class="despre-stat">
                 <p class="despre-nr">200+</p>
-                <p class="despre-stat-text">Utilaje vandute</p>
+                <p class="despre-stat-text">Utilaje vândute</p>
               </div>
               <div class="despre-stats-line"></div>
               <div class="despre-stat">
                 <p class="despre-nr">150+</p>
-                <p class="despre-stat-text">Clienti fericiti</p>
+                <p class="despre-stat-text">Clienți fericiți</p>
               </div>
             </div>
             <button onclick="window.open('tel:900300400');">
-              Contacteaza-ne acum!
+              Contactează-ne acum!
             </button>
           </div>
           <div class="despre-right">
@@ -618,7 +618,7 @@
           </div>
         </div>
         <section id="parteneri" role="region" aria-labelledby="parteneri-title">
-          <h2 id="parteneri-title">Partenerii nostri</h2>
+          <h2 id="parteneri-title">Partenerii noștri</h2>
           <div class="scroller" data-speed="fast">
             <ul class="tag-list scroller__inner">
               <li><img src="/images/MF.png" alt="" /></li>
@@ -641,7 +641,7 @@
             originale și echipamente moderne.
           </p>
           <button onclick="window.open('tel:900300400');">
-            Contacteaza-ne!
+            Programare Service
           </button>
         </div>
         <img src="/images/serv.png" alt="" />
@@ -664,36 +664,14 @@
 
             <h3>Ce tipuri de utilaje agricole comercializați?</h3>
             <p class="invisible intrebari-answer">
-              Tarifele pentru diferitele servicii variază. Pentru a obține
-              informații exacte și actualizate despre tarifele fiecărui serviciu
-              în parte, vă recomandăm să contactați direct biroul nostru
-              telefonic sau să programați o consultație. Echipa noastră va fi
-              bucuroasă să vă ofere toate detaliile necesare.
+              Oferim o gamă variată de utilaje agricole, inclusiv tractoare,
+              combine, hedere de recoltat, utilaje zootehnice, echipamente
+              pentru prelucrarea solului, semănători, soluții pentru protecția
+              plantelor, transport și încărcătoare. Suntem aici pentru a
+              răspunde nevoilor tale specifice!
             </p>
           </div>
-          <div class="intrebari__card">
-            <img
-              src="./images/arrow-right-q.png"
-              alt=""
-              class="arrow-right-q"
-            />
-            <img
-              src="./images/arrow-down-q.png"
-              alt=""
-              class="arrow-down-q invisible"
-            />
 
-            <h3>
-              Cât de devreme ar trebui să mă programez pentru o consultație?
-            </h3>
-            <p class="invisible intrebari-answer">
-              Cât de devreme ar trebui să vă programați pentru o consultație
-              depinde de disponibilitatea noastră și de tipul serviciului
-              solicitat. În general, este recomandat să vă programați cât mai
-              devreme posibil pentru a vă asigura că obțineți un interval
-              convenabil.
-            </p>
-          </div>
           <div class="intrebari__card">
             <img
               src="./images/arrow-right-q.png"
@@ -708,11 +686,8 @@
 
             <h3>Cum pot programa o reparație pentru utilajul meu?</h3>
             <p class="invisible intrebari-answer">
-              Tarifele pentru diferitele servicii variază. Pentru a obține
-              informații exacte și actualizate despre tarifele fiecărui serviciu
-              în parte, vă recomandăm să contactați direct biroul nostru
-              telefonic sau să programați o consultație. Echipa noastră va fi
-              bucuroasă să vă ofere toate detaliile necesare.
+              Poți programa o reparație sunând la numărul nostru de contact.
+              Echipa noastră te va ajuta să stabilești detaliile necesare.
             </p>
           </div>
           <div class="intrebari__card">
@@ -729,11 +704,29 @@
 
             <h3>Cum pot comanda piese de schimb?</h3>
             <p class="invisible intrebari-answer">
-              Tarifele pentru diferitele servicii variază. Pentru a obține
-              informații exacte și actualizate despre tarifele fiecărui serviciu
-              în parte, vă recomandăm să contactați direct biroul nostru
-              telefonic sau să programați o consultație. Echipa noastră va fi
-              bucuroasă să vă ofere toate detaliile necesare.
+              Piesele de schimb pot fi comandate prin telefon sau prin
+              intermediul formularului de comandă disponibil pe site. Asigură-te
+              că ne oferi detalii despre utilajul tău pentru a primi piese
+              corespunzătoare.
+            </p>
+          </div>
+          <div class="intrebari__card">
+            <img
+              src="./images/arrow-right-q.png"
+              alt=""
+              class="arrow-right-q"
+            />
+            <img
+              src="./images/arrow-down-q.png"
+              alt=""
+              class="arrow-down-q invisible"
+            />
+
+            <h3>Ce tip de asistență tehnică oferiți după achiziție?</h3>
+            <p class="invisible intrebari-answer">
+              Oferim suport tehnic continuu, inclusiv consultanță și asistență
+              pentru operarea utilajelor, precum și servicii de mentenanță și
+              reparații.
             </p>
           </div>
         </div>
@@ -746,7 +739,7 @@
         <div class="footer-links">
           <p>Link-uri</p>
           <ul>
-            <li><a href="#acasa" aria-label="Sectiune acasa">Acasa</a></li>
+            <li><a href="#acasa" aria-label="Sectiune acasa">Acasă</a></li>
             <li>
               <a href="#despre" aria-label="Sectiune despre noi">Despre noi</a>
             </li>
@@ -754,11 +747,13 @@
               <a href="#service" aria-label="Sectiune service">Service</a>
             </li>
             <li>
-              <a href="#finantare" aria-label="Sectiune finantare">Finantare</a>
+              <a href="#finantare" aria-label="Sectiune finantare"
+                >Finanțare
+              </a>
             </li>
             <li>
               <a href="#intrebari" aria-label="Sectiune intrebari frecvente"
-                >Intrebari frecvente</a
+                >Întrebări frecvente</a
               >
             </li>
             <li>
@@ -777,11 +772,17 @@
           <p>Utilaje</p>
           <ul>
             <li>
-              <a href="#utilaje" aria-label="Sectiune utilaje">Utilaje noi</a>
+              <a
+                href="products.html?categorie=tractoare-premium"
+                aria-label="Sectiune utilaje"
+                >Tractoare</a
+              >
             </li>
             <li>
-              <a href="#utilaje" aria-label="Sectiune utilaje"
-                >Utilaje second-hand</a
+              <a
+                href="products.html?categorie=combine-premium"
+                aria-label="Sectiune utilaje"
+                >Combine</a
               >
             </li>
           </ul>
