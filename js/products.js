@@ -88,6 +88,102 @@ document.addEventListener("DOMContentLoaded", function () {
           });
         });
       });
+      productsHTML.innerHTML += `    <div class="pagination" id="pagination">
+            <button id="prev">Pagina anterioară</button>
+            <div id="page-links"></div>
+            <button id="next">Pagina următoare</button>
+          </div>`;
+      // // Pagination
+      const cards = document.querySelectorAll(".product-card");
+      const cardsPerPage = 10;
+      const prevButton = document.getElementById("prev");
+      const nextButton = document.getElementById("next");
+      const pageLinksContainer = document.getElementById("page-links");
+
+      const noProducts = document.querySelector(".no-products");
+
+      // Calculate the total number of pages
+      const totalPages = Math.ceil(cards.length / cardsPerPage);
+
+      if (totalPages === 0) {
+        prevButton.style.display = "none";
+        nextButton.style.display = "none";
+        noProducts.innerHTML += `
+          <h3>Fără rezultate</h3>
+          <p>Ne pare rău, dar nu am găsit produse care să corespundă filtrelor aplicate.</p>
+          <p>Te rugăm să ajustezi filtrele sau să explorezi alte categorii pentru a găsi ce îți dorești.</p>
+        `;
+        noProducts.style.display = "flex";
+      }
+      let currentPage = 1;
+
+      for (let i = 1; i <= totalPages; i++) {
+        pageLinksContainer.innerHTML += `<a href="#" class="page-link-generated" data-page="${i}">${i}</a>
+`;
+      }
+
+      const pageLinks = document.querySelectorAll(".page-link-generated");
+
+      // // Function to display cards for a specific page
+      function displayPage(page) {
+        const startIndex = (page - 1) * cardsPerPage;
+        const endIndex = startIndex + cardsPerPage;
+        cards.forEach((card, index) => {
+          if (index >= startIndex && index < endIndex) {
+            card.style.display = "flex";
+          } else {
+            card.style.display = "none";
+          }
+        });
+      }
+
+      // // Function to update pagination buttons and page numbers
+      function updatePagination() {
+        prevButton.disabled = currentPage === 1;
+
+        nextButton.disabled = currentPage === totalPages;
+        pageLinks.forEach((link) => {
+          const page = parseInt(link.getAttribute("data-page"));
+          link.classList.toggle("active", page === currentPage);
+        });
+      }
+
+      // // Event listener for "Previous" button
+      prevButton.addEventListener("click", () => {
+        if (currentPage > 1) {
+          currentPage--;
+          displayPage(currentPage);
+          updatePagination();
+        }
+      });
+
+      // // Event listener for "Next" button
+      nextButton.addEventListener("click", () => {
+        if (currentPage < totalPages) {
+          currentPage++;
+          displayPage(currentPage);
+          updatePagination();
+        }
+      });
+
+      // // Event listener for page number buttons
+      pageLinks.forEach((link) => {
+        link.addEventListener("click", (e) => {
+          e.preventDefault();
+          const page = parseInt(link.getAttribute("data-page"));
+          if (page !== currentPage) {
+            currentPage = page;
+            displayPage(currentPage);
+            updatePagination();
+          }
+        });
+      });
+
+      // // Initial page load
+      displayPage(currentPage);
+      updatePagination();
+
+      console.log(prevButton.disabled);
     })
     .catch((error) => {
       console.error("Error loading JSON data:", error);

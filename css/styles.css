@@ -956,6 +956,22 @@ footer {
 .utilaj-x {
   display: none;
 }
+
+.no-products {
+  display: none;
+  flex-direction: column;
+  gap: 4px;
+  padding: 0 30px;
+}
+
+.no-products h3 {
+  font-size: 20px;
+}
+
+.no-products p {
+  font-size: 16px;
+}
+
 .product-card-motor {
   /* width: 400px; */
   /* height: 100px; */
@@ -970,6 +986,48 @@ footer {
 
 .products-mobile-filters {
   display: none;
+}
+
+.pagination {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  gap: 8px;
+}
+
+.pagination a {
+  color: var(--crimson);
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid var(--crimson);
+  margin: 0 5px;
+}
+
+.pagination a:hover {
+  background-color: var(--crimson);
+  color: white;
+}
+
+.pagination .active {
+  background-color: var(--crimson);
+  color: white;
+}
+
+#prev,
+#next {
+  border: none;
+  background-color: white;
+  color: var(--crimson);
+  padding: 0;
+  margin: 0 20px;
+}
+
+#prev:disabled,
+#next:disabled {
+  color: var(--darkgray);
+  cursor: not-allowed;
 }
 
 @media (max-width: 1200px) {
