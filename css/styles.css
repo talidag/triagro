@@ -58,7 +58,8 @@ header {
   gap: 28px;
 }
 
-.icons-container a img:hover {
+.icons-container a img:hover,
+.icons-wrapper a img:hover {
   filter: invert(19%) sepia(94%) saturate(3713%) hue-rotate(340deg)
     brightness(76%) contrast(102%);
   transition: filter 0.2s ease;
@@ -122,8 +123,16 @@ header {
 .navbar ul li ul {
   position: absolute;
   left: 0;
-  width: 230px;
   display: none;
+  width: 160px;
+}
+
+#first-ul {
+  width: 250px;
+}
+
+#last-ul {
+  left: 160px;
 }
 
 .navbar ul li ul li {
@@ -131,7 +140,7 @@ header {
 }
 
 .navbar ul li ul li ul {
-  left: 230px;
+  left: 250px;
   top: 0;
 }
 
@@ -267,6 +276,10 @@ header {
 
   #burger ~ .navbar {
     display: block;
+  }
+
+  #last-ul {
+    left: 0;
   }
 }
 
@@ -619,6 +632,19 @@ footer {
   transition: color 0.4s ease;
 }
 
+.icons-container-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-left: 20px;
+}
+
+.icons-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
 @media (max-width: 1300px) {
   #acasa h1 {
     padding: 0 230px;
@@ -935,8 +961,8 @@ footer {
 
 .product-sub {
   padding: 2px 8px;
-  border: 1px solid var(--crimson);
-  background-color: var(--crimson);
+  border: 1px solid gray;
+  background-color: gray;
   /* border-radius: 128px; */
   font-size: 14px;
   font-weight: bold;
@@ -1045,10 +1071,10 @@ footer {
     bottom: 20px;
     z-index: 99;
     padding: 8px 16px;
-    /* background-color: var(--gray); */
+    /* background-color: gray; */
     /* color: var(--black); */
-    /* border: 1px solid black; */
-    /* border-radius: 500px; */
+    font-weight: bold;
+    /* border: 1px solid rgb(223, 211, 211); */
   }
 
   .utilaj-x {
@@ -1060,6 +1086,10 @@ footer {
     color: #000000;
     background-color: white;
     margin: 0;
+  }
+
+  .products-all {
+    margin-top: 30px;
   }
 }
 
@@ -1081,7 +1111,7 @@ footer {
   }
 }
 
-@media (max-width: 730px) {
+@media (max-width: 820px) {
   .product-card {
     flex-direction: column;
     height: auto;
@@ -1103,5 +1133,12 @@ footer {
 @media (max-width: 390px) {
   .product-card-img {
     width: 90vw;
+  }
+}
+
+@media (max-width: 650px) {
+  .pagination {
+    flex-direction: column;
+    gap: 20px;
   }
 }

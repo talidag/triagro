@@ -146,6 +146,7 @@ document.addEventListener("DOMContentLoaded", function () {
           const page = parseInt(link.getAttribute("data-page"));
           link.classList.toggle("active", page === currentPage);
         });
+        window.scrollTo(0, 0);
       }
 
       // // Event listener for "Previous" button
