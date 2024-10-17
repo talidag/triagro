@@ -3,12 +3,12 @@
 document.querySelectorAll(".navbar ul > li").forEach((item) => {
   item.addEventListener("mouseenter", function () {
     const submenu = this.querySelector(".submenu");
-    if (submenu) submenu.style.display = "block"; // Show submenu on hover
+    if (submenu) submenu.style.display = "block";
   });
 
   item.addEventListener("mouseleave", function () {
     const submenu = this.querySelector(".submenu");
-    if (submenu) submenu.style.display = "none"; // Hide submenu when not hovering
+    if (submenu) submenu.style.display = "none";
   });
 });
 
@@ -16,7 +16,6 @@ document.querySelectorAll(".navbar ul > li").forEach((item) => {
 
 const scrollers = document.querySelectorAll(".scroller");
 
-// If a user hasn't opted in for recuded motion, then we add the animation
 if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
   addAnimation();
 }
@@ -103,7 +102,6 @@ document.addEventListener("DOMContentLoaded", function () {
         offsetTop = targetElement.offsetTop - navbarHeight + 120;
       }
 
-      // Scroll to the element
       window.scrollTo({
         top: offsetTop,
         behavior: "smooth",
@@ -112,23 +110,73 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   const navLinksA = document.querySelectorAll(".nav__links__list > li > a");
-  const footerLinksA = document.querySelectorAll(".footer__links__list li a");
+  const footerLinksA = document.querySelectorAll(".footer-links li a");
+
+  if (document.location.pathname == "/index.html") {
+    navLinksA.forEach((link) => {
+      link.addEventListener("click", function (event) {
+        event.preventDefault();
+        const targetId = this.getAttribute("href").substring(1);
+        scrollToElement(targetId);
+      });
+    });
+
+    footerLinksA.forEach((link) => {
+      link.addEventListener("click", function (event) {
+        event.preventDefault();
+        const targetId = this.getAttribute("href").substring(1);
+        scrollToElement(targetId);
+      });
+    });
+  }
+
+  // TEST
+
+  function scrollToSection(targetId) {
+    window.location.href = `index.html#${targetId}`;
+  }
+
+  function handleLinkClick(event) {
+    const targetId = this.getAttribute("href").substring(1);
+
+    if (document.location.pathname !== "/index.html") {
+      event.preventDefault();
+      scrollToSection(targetId);
+    } else {
+      scrollToElement(targetId, 125);
+    }
+  }
+
+  function scrollToElement(elementId, offset) {
+    const targetElement = document.getElementById(elementId);
+
+    if (targetElement) {
+      const offsetTop = targetElement.offsetTop - offset;
+
+      window.scrollTo({
+        top: offsetTop,
+        behavior: "smooth",
+      });
+    }
+  }
 
   navLinksA.forEach((link) => {
-    link.addEventListener("click", function (event) {
-      event.preventDefault();
-      const targetId = this.getAttribute("href").substring(1); // Remove '#'
-      scrollToElement(targetId);
-    });
+    link.addEventListener("click", handleLinkClick);
   });
 
   footerLinksA.forEach((link) => {
-    link.addEventListener("click", function (event) {
-      event.preventDefault();
-      const targetId = this.getAttribute("href").substring(1); // Remove '#'
-      scrollToElement(targetId);
-    });
+    link.addEventListener("click", handleLinkClick);
   });
+
+  if (document.location.pathname === "/index.html") {
+    const hash = window.location.hash.substring(1);
+
+    if (hash) {
+      window.onload = function () {
+        scrollToElement(hash, 125);
+      };
+    }
+  }
 });
 
 function closeMenu() {
